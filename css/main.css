@@ -1271,7 +1271,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #4da4f7;
+  background: #5beeb9;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2685,18 +2685,78 @@ ul.breadcrumb li + li:last-child {
 /* sidebar social icon */
 .bilibili {
   background-image: url("/images/bilibili.svg");
+  background-image: url("/images/bilibili.svg");
+  background-size: 1em 1em;
+  opacity: 0.55;
+  background-position: 0.05rem 0.2rem;
+  background-repeat: no-repeat;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 0rem;
+/* 鼠标停留在图标上时，图标呈现发光效果 */
+}
+.bilibili:hover {
+  opacity: 1;
 }
 .github {
   background-image: url("/images/github.svg");
+  background-image: url("/images/bilibili.svg");
+  background-size: 1em 1em;
+  opacity: 0.55;
+  background-position: 0.05rem 0.2rem;
+  background-repeat: no-repeat;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 0rem;
+/* 鼠标停留在图标上时，图标呈现发光效果 */
+}
+.github:hover {
+  opacity: 1;
 }
 .qq {
   background-image: url("/images/qq.svg");
+  background-image: url("/images/bilibili.svg");
+  background-size: 1em 1em;
+  opacity: 0.55;
+  background-position: 0.05rem 0.2rem;
+  background-repeat: no-repeat;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 0rem;
+/* 鼠标停留在图标上时，图标呈现发光效果 */
+}
+.qq:hover {
+  opacity: 1;
 }
 .stackoverflow {
   background-image: url("/images/stackoverflow.svg");
+  background-image: url("/images/bilibili.svg");
+  background-size: 1em 1em;
+  opacity: 0.55;
+  background-position: 0.05rem 0.2rem;
+  background-repeat: no-repeat;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 0rem;
+/* 鼠标停留在图标上时，图标呈现发光效果 */
+}
+.stackoverflow:hover {
+  opacity: 1;
 }
 .zhihu {
   background-image: url("/images/zhihu.svg");
+  background-image: url("/images/bilibili.svg");
+  background-size: 1em 1em;
+  opacity: 0.55;
+  background-position: 0.05rem 0.2rem;
+  background-repeat: no-repeat;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 0rem;
+/* 鼠标停留在图标上时，图标呈现发光效果 */
+}
+.zhihu:hover {
+  opacity: 1;
 }
 .c-aside {
   margin-bottom: 30px;
