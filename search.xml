@@ -97,7 +97,7 @@ HEVC：视频流是 H.265 编码
 AAC：音频是 AAC 编码
 CHI：chi 是中文的意思（chinese 的缩写），也可以写成 zh
 一般来说，sc 代表着简体中文（也被叫做 chs，GB，zh-Hans） Tc 表示繁体中文（也被叫做，cht，big5，zh-Hant）
-（注：关于各个语言的缩写可以看参考文献） 
+
 
 <p>现在再来看个一个例子</p>
 <p>
@@ -161,9 +161,9 @@ Hi10p_1080p：这里代表的是格式配置是 hi10，格式是 1080p（1920*10
 <p> 需要字幕可以专门去相关网站找对应的字幕下载，然后挂到视频里看就好了，如果不同步，可以手动调整下。</p>
 </li>
 </ol>
-<h3 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h3><ul>
+<h3 id="下一篇-看片全系列教程-播放器篇"><a href="#下一篇-看片全系列教程-播放器篇" class="headerlink" title="下一篇 看片全系列教程-播放器篇"></a>下一篇 <a href="/project/cd18c8e.html">看片全系列教程-播放器篇</a></h3><h3 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h3><ul>
 <li><a href="https://zhuanlan.zhihu.com/p/337850228">如何看懂高清资源命名：常见命名规则及解释</a></li>
-<li><a href="https://vcb-s.com/archives/2726">VCB-Studio 科普教程 3： 视频格式基础知识</a></li>
+<li><a href="https://vcb-s.com/archives/2726">[VCB-Studio 科普教程3]： 视频格式基础知识</a></li>
 </ul>
 ]]></content>
       <categories>
@@ -176,6 +176,131 @@ Hi10p_1080p：这里代表的是格式配置是 hi10，格式是 1080p（1920*10
         <tag>番剧</tag>
         <tag>电影</tag>
         <tag>电视剧</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>看片全系列教程,从入门到入土:二 播放器篇</title>
+    <url>/project/cd18c8e.html</url>
+    <content><![CDATA[<p><strong>现在的高清视频观看体验，瓶颈不在片源，也不在制作，而是在播放器 ——题记</strong></p>
+<h3 id="序"><a href="#序" class="headerlink" title="序"></a>序</h3><p>现在的高清视频观看体验，瓶颈不在片源，也不在制作，而是在播放器</p>
+<p>本文主要介绍<strong>mpv</strong>播放器及其使用</p>
+<p><font color="red">建议先看</font><a href="#mpv-net-CM">mpv.net_CM</a>,这是mpv的一个汉化分支，几乎不需要繁杂的配置文件<br>支持：</p>
+<ul>
+<li><p>几乎所有mpv的功能都可用，除去一些窗口行为</p>
+</li>
+<li><p>兼容几乎所有mpv脚本&#x2F;着色器，除去部分具有特定依赖的项目</p>
+</li>
+<li><p>单实例&#x2F;多实例切换</p>
+</li>
+<li><p>支持基础操作的播放列表、音轨字幕轨列表面板</p>
+</li>
+<li><p>图形化的设置修改与快捷键编辑器</p>
+</li>
+<li><p>可自定义的右键菜单</p>
+</li>
+<li><p>音量、窗口尺寸的退出时记忆</p>
+</li>
+</ul>
+<p><strong>mpv.net_CM有更友好的界面操作性，更利于萌新上手，但某种程度上也限制了自由发挥。</strong></p>
+<h3 id="mpv播放器"><a href="#mpv播放器" class="headerlink" title="mpv播放器"></a>mpv播放器</h3><p><img src="/project/cd18c8e/mpv-logo.jpg" alt="img"></p>
+<h4 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h4><p>mpv 是著名开源项目 MPlayer 的分支，因其对最新软硬件平台、视频标准以及各种高画质选项的支持而广受好评，也是目前非 Windows 平台上高画质播放器的不二选择。<br>由于 mpv 本身没有图形界面，各种设置需要通过手动编写配置文件来完成，使很多不熟悉命令行的普通用户望而却步。本文的主要目的就是为 Windows 和 macOS 用户提供一个 mpv 播放器的上手指南，手把手教你如何把 mpv 用起来。</p>
+<h4 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h4><p>Windows 用户到<a href="https://sourceforge.net/projects/mpv-player-windows/files/">这里</a>，点击 <code>stable</code> 文件夹，选择并下载最新版的 64-bit 压缩包。mpv 是原生绿色软件，将压缩包内所有文件解压到你想要的位置即可，例如<code>C:\mpv</code>。如果你希望双击就能用 mpv 打开媒体文件，请以管理员权限运行 <code>installer</code> 文件夹内的 <code>mpv-install.bat</code>。该软件仓库的维护者每周都会发布一个根据最新源代码编译的版本。</p>
+<p>macOS 用户到<a href="https://laboratory.stolendata.net/~djinn/mpv_osx/">这里</a>下载最新版的压缩包，解压后把得到的 <code>mpv.app</code> 直接拖进应用（Applications）文件夹内即可。如果你安装了 Homebrew，也可以直接运行 <code>brew cask install mpv</code> 来安装。安装之后首次运行时可能会被 macOS 安全设置阻止，需要到系统设置 – 安全与隐私中允许它。</p>
+<h4 id="设置文件类型关联"><a href="#设置文件类型关联" class="headerlink" title="设置文件类型关联"></a>设置文件类型关联</h4><p>Windows 下的文件类型关联应该已经由安装脚本完成。在 macOS 下，以 MKV 文件为例，在任意 MKV 文件上点击右键 – 显示简介 – 打开方式 – 全部更改，然后选择 mpv 即可。</p>
+<h4 id="简单的播放器控制界面"><a href="#简单的播放器控制界面" class="headerlink" title="简单的播放器控制界面"></a>简单的播放器控制界面</h4><p>mpv 在播放界面上提供了一些简单的控制功能。在视频画面上移动鼠标会在界面底部显示浮动控制栏。</p>
+<p><img src="/project/cd18c8e/image-20220703204903200.png" alt="image-20220703204903200"></p>
+<p>底部最左边的三个按钮分别是播放&#x2F;暂停、跳转前后章节。进度条右边的几个按钮分别是切换音轨、切换字幕、调节音量和全屏&#x2F;窗口显示。鼠标左键点击音轨和字幕按钮可以直接切换音轨或字幕，Shift + 左键则可以显示当前已加载的音轨或字幕列表。<br>(注：前后章节功能需要视频压制者自己制作，如下图即为有章节标签的视频，可实现跳过OP&#x2F;ED)</p>
+<p><img src="/project/cd18c8e/image-20220703205051968.png" alt="image-20220703205051968"></p>
+<h4 id="常用快捷键"><a href="#常用快捷键" class="headerlink" title="常用快捷键"></a>常用快捷键</h4><p><code>→</code> 前进 5 秒<br><code>←</code> 后退 5 秒<br><code>↑</code> 前进 1 分钟<br><code>↓</code> 后退 1 分钟<br><code>PageUp</code> 跳转到下一章节<br><code>PageDown</code> 跳转到前一章节<br><code>Space</code> 播放&#x2F;暂停<br><code>9</code> 降低音量<br><code>0</code> 提高音量<br><code>j</code> 切换字幕<br><code>#</code> 切换音轨<br><code>f</code> 切换全屏&#x2F;窗口显示<br><code>s</code> 截图</p>
+<p>此外，快捷键 <code>i</code> 可以显示当前正在播放的文件的媒体信息以及解码、渲染的相关数据（如下图）。使用 <code>Shift + i</code> 则可以让这些信息保持显示或清除，显示时点击 <code>1</code> 和 <code>2</code> 可以分别显示信息的第一、二页。</p>
+<p><img src="/project/cd18c8e/image-20220703205243063.png" alt="image-20220703205243063"></p>
+<h4 id="创建配置文件"><a href="#创建配置文件" class="headerlink" title="创建配置文件"></a>创建配置文件</h4><p>虽然 mpv 的默认设置已经足以正常播放绝大多数视频，为了达到更好的效果以及符合个人的使用习惯，我们仍然需要一些配置。</p>
+<p>Windows 下打开记事本（Notepad）或者任何你喜欢的纯文本编辑器，新建一个空白文档，写好配置命令（见下）后，在刚才 mpv 的解压目录下新建一个名为 <code>portable_config</code> 的新文件夹，例如<code>C:\mpv\portable_config</code>，将配置文件命名为<code> mpv.conf</code> 保存在该文件夹内（注意使用记事本的话，保存文件时“保存类型”要选择“所有文件 (<em>.</em>)”，否则文件名会被加上<code> .txt</code> 扩展名，变成 <code>mpv.conf.txt</code>）。</p>
+<p>macOS 下首先打开配置文件要保存的位置，方法是在访达（Finder）的顶栏打开前往（Go）菜单下的前往文件夹（Go to Folder），然后输入：</p>
+<p><code>~/.config/mpv</code></p>
+<p>（因为这个文件夹默认是隐藏的，无法直接打开），然后打开 macOS 自带的文本编辑（TextEdit）应用，新建一个文档，在“格式”菜单中选择将文档转换为纯文本（Make Plain Text），写好配置命令（见下）后，将这个文件保存在刚才打开的 mpv 文件夹内，文件名为 <code>mpv.conf</code>。</p>
+<h4 id="建议添加的配置命令"><a href="#建议添加的配置命令" class="headerlink" title="建议添加的配置命令"></a>建议添加的配置命令</h4><p>mpv 的默认渲染设置非常保守。如果你的显卡性能不是太差（近几年的集成显卡一般都已足够），建议启用一套预设的高质量渲染设置，方法是在 <code>mpv.conf</code> 中写上这么一行：</p>
+<p><code>profile=gpu-hq</code></p>
+<p>注意，使用高质量渲染设置可能会大大降低笔记本的电池续航时间，在近些年的高分辨率屏幕上（例如“视网膜显示屏”的 MacBook）尤其明显。</p>
+<p>mpv 默认不对视频进行色彩管理。即使你没有使用校色仪对屏幕进行过校色，对于原生色域接近某一标准色域（如 sRGB 或 DCI-P3 D65）的屏幕来说，开启色彩管理仍然可以获得更准确的颜色，因此，我建议始终将色彩管理开启：</p>
+<p><code>icc-profile-auto</code></p>
+<p>设置将字幕渲染到视频源分辨率并随视频一起缩放并进行色彩管理，这样可以保证字幕的分辨率与画面始终一致（避免“画面模糊字幕高清”的情况），并保证字幕中“屏幕字”的颜色与画面一致：</p>
+<p><code>blend-subtitles=video</code></p>
+<p>如果你有中高端独立显卡，想进一步提高画面拉伸质量，可以将画面拉伸算法更改为 EWA Lanczos（即 madVR 中所谓 Jinc）：</p>
+<p><code>scale=ewa_lanczossharp</code></p>
+<p>在很多时候，我们的显示器刷新率不是片源帧率的整数倍（例如显示器刷新率通常为 60 Hz 而动画通常为 23.976 fps），此时在默认设置下会因每一帧实际在屏幕上的呈现时间不均等而造成卡顿感（俗称 3:2 pull down judder）。因此，建议启用 interpolation 来消除这个问题（此功能非常类似于 madVR 中的 smooth motion）：</p>
+<p><code>video-sync=display-resample</code><br><code>interpolation</code><br><code>tscale=oversample</code></p>
+<p>以上是我认为具有普适性的一些选项。其他可以定制的地方还有很多，具体可以参考官方的文档对于上百个设置的解释说明。此外，mpv 提供了第三方用户脚本支持，可以实现更多的功能（例如设置 profile 针对不同片源类型进行不同的处理），以及第三方 user shader 来实现更多的画面处理（例如 NNEDI3、RAVU 等等）。</p>
+<p>相比在图形界面中用鼠标勾勾点点，手写配置文件的方式固然不太符合普通用户的习惯，但是“一旦接受了这种设定”，你会逐渐体会到命令行的便利与灵活。</p>
+<p>关于 mpv 的配置方法可以另外参考：</p>
+<ul>
+<li><a href="https://github.com/haasn/gentoo-conf/blob/xor/home/nand/.mpv/config">mpv 开发者 hassn 的个人 mpv 配置</a></li>
+<li><a href="https://github.com/Argon-/mpv-config/blob/master/mpv.conf">mpv 开发者 Argon- 的个人 mpv 配置</a></li>
+<li>或<a href="https://github.com/wty2333/wty2333.github.io/blob/hexo/mpv_config/mpv_haasn.conf">hassn 的个人 mpv 配置备份</a></li>
+<li><a href="https://github.com/wty2333/wty2333.github.io/blob/hexo/mpv_config/mpv_Argon-.conf">Argon- 的个人 mpv 配置备份</a></li>
+</ul>
+<h3 id="mpv-net-CM"><a href="#mpv-net-CM" class="headerlink" title="mpv.net_CM"></a>mpv.net_CM</h3><h4 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接"></a>下载链接</h4><ul>
+<li><a href="https://github.com/hooke007/mpv.net_CM">github项目主页</a></li>
+<li>蓝奏云链接：<a href="https://wwn.lanzoum.com/iCHVx07bdtcd">https://wwn.lanzoum.com/iCHVx07bdtcd</a>, 密码:3b7y</li>
+<li><a href="https://www.aliyundrive.com/s/CvmdpQNoikp">阿里云盘分享</a></li>
+</ul>
+<h4 id="介绍-1"><a href="#介绍-1" class="headerlink" title="介绍"></a>介绍</h4><ul>
+<li>mpv.net_CM 是基于上游的中文分支模组，原版mpv.net具有下列明显特点：<ul>
+<li>几乎所有mpv的功能都可用，除去一些窗口行为</li>
+<li>兼容几乎所有mpv脚本&#x2F;着色器，除去部分具有特定依赖的项目</li>
+<li>单实例&#x2F;多实例切换</li>
+<li>支持基础操作的播放列表、音轨字幕轨列表面板</li>
+<li>图形化的设置修改与快捷键编辑器</li>
+<li>可自定义的右键菜单</li>
+<li>音量、窗口尺寸的退出时记忆</li>
+</ul>
+</li>
+<li>本模组对上游项目如下变更：<ul>
+<li>界面汉化</li>
+<li>编辑器选项修改</li>
+<li>菜单条目+初始快捷键修改</li>
+<li>集成Python+VapourSynth便携式组件</li>
+<li>预设脚本与着色器</li>
+</ul>
+</li>
+</ul>
+<h4 id="极简的程序使用介绍"><a href="#极简的程序使用介绍" class="headerlink" title="极简的程序使用介绍"></a>极简的程序使用介绍</h4><p>本模组无需下载原版mpv.net<br>运行 mpvnet.exe 即可启动程序<br>需要用户已安装 .NET framework 4.8 运行库 （win10 1903及之后版本的系统内已集成） 指路链接<br>之前用过原版或者旧版的需要执行一次 mpvnet注册表信息清理.reg<br>恢复默认设置可执行 mpvnet设置重置与缓存清理.bat<br>mpvnet的 libmpv内核 可自行独立更新（替换文件目录中的 mpv-2.dll ）</p>
+<h4 id="预览"><a href="#预览" class="headerlink" title="预览"></a>预览</h4><p><strong>关于、多功能右键菜单</strong></p>
+<p><img src="/project/cd18c8e/mpvnet-01.webp" alt="img"></p>
+<p><strong>图形化编辑器、快捷指令</strong></p>
+<p><img src="/project/cd18c8e/mpvnet-02.webp" alt="img"></p>
+<p><strong>两类播放列表、多种操作面板</strong></p>
+<p><img src="/project/cd18c8e/mpvnet-03.webp" alt="img"></p>
+<p><strong>富媒体信息、简易化的mpv指令查询</strong></p>
+<p><img src="/project/cd18c8e/mpvnet-04.webp" alt="img"></p>
+<h3 id="potplayer"><a href="#potplayer" class="headerlink" title="potplayer"></a>potplayer</h3><h4 id="下载链接-1"><a href="#下载链接-1" class="headerlink" title="下载链接"></a>下载链接</h4><ul>
+<li><a href="https://wwn.lanzoum.com/iTA4n07bgoed">蓝奏云</a></li>
+<li><a href="https://www.aliyundrive.com/s/fM8hPmjxcvM">阿里云盘</a></li>
+</ul>
+<h4 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h4><p>解压即用</p>
+<p><img src="/project/cd18c8e/image-20220703213108209.png" alt="image-20220703213108209"></p>
+<p>具体使用可参考<a href="http://www.potplayercn.com/">PoyPlayer中文网</a></p>
+<h3 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h3><ul>
+<li><a href="https://vcb-s.com/archives/4407">[VCB-Studio 科普教程 1.1] 64-bit MPC-HC 播放器教程（入门篇）</a></li>
+<li><a href="https://vcb-s.com/archives/534">[旧版][VCB-Studio 科普教程 1.1] 基于完美解码的播放器教程</a></li>
+<li><a href="https://vcb-s.com/archives/4384">[VCB-Studio 科普教程 1.2] PotPlayer 播放器教程（入门篇）</a></li>
+<li><a href="https://vcb-s.com/archives/7159">[VCB-Studio 科普教程 1.3] 在 macOS 上使用 IINA 播放器</a></li>
+<li><a href="https://vcb-s.com/archives/1216">[旧版][VCB-Studio 科普教程 2] madVR 渲染器配置教程和原理解释</a></li>
+<li><a href="https://vcb-s.com/archives/5610">[VCB-Studio 科普教程 2.1] madVR 渲染器配置教程（2016.08.13 更新）</a></li>
+<li><a href="https://vcb-s.com/archives/7228">[VCB-Studio 科普教程 2.2] 基于 PotPlayer 和 madVR 的播放器教程（已更新 XySubFilter）</a></li>
+<li><a href="https://vcb-s.com/archives/7594">[VCB-Studio 科普教程 2.3] 跨平台播放器 mpv 配置入门</a></li>
+<li><a href="https://vcb-s.com/archives/4567">[VCB-Studio 科普教程 5] 那些播放器教程背后的知识</a></li>
+<li><a href="https://hooke007.github.io/unofficial/mpv_start.html">mpv播放器的使用引导</a></li>
+<li><a href="https://mpv.io/manual/master/">mpv官方的开发版手册（英文）</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>教程</category>
+        <category>看片系列</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>播放器</tag>
       </tags>
   </entry>
   <entry>

@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://wty2333.github.io/project/cd18c8e.html</loc>
+    
+    <lastmod>2022-07-03</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://wty2333.github.io/project/e87c114f.html</loc>
     
     <lastmod>2022-07-03</lastmod>
@@ -94,6 +103,13 @@
   
   <url>
     <loc>https://wty2333.github.io/tags/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2022-07-03</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wty2333.github.io/tags/%E6%92%AD%E6%94%BE%E5%99%A8/</loc>
     <lastmod>2022-07-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
