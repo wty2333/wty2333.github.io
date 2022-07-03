@@ -19,6 +19,7 @@ abbrlink: 4a17b156
     - [Hexo 搭建个人博客文章汇总](https://tding.top/archives/aad98408.html)
     - [Hexo-NexT 设置圆角](https://cs-cshi.github.io/hexo-blog/Hexo-NexT%20%E8%AE%BE%E7%BD%AE%E5%9C%86%E8%A7%92/)
     - [为hexo next8.0主题添加一个可以切换的黑色/夜间模式](https://haomingzhang.com/hexo_3/)
+    - [使用git分支保存hexo博客源码到github](https://zhuanlan.zhihu.com/p/71544809)
     
 
 
