@@ -1,0 +1,22 @@
+zh-CN: 
+  menu:
+    home: 首页
+    top: 热榜
+    archives: 归档
+    categories: 分类
+    tags: 标签
+    about: 关于
+    links: 友情链接
+    search: 搜索
+    schedule: 日程表
+    sitemap: 站点地图
+    commonweal: 公益 404
+    movies: 观影
+    books: 阅读
+    gallery: 画廊
+
+  reward:
+    donate: <i class="fa fa-qrcode fa-2x" style="line-height:35px;"></i>
+    wechatpay: 微信支付
+    alipay: 支付宝
+    bitcoin: 比特币
