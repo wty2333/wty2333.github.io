@@ -206,7 +206,7 @@ Hi10p_1080p：这里代表的是格式配置是 hi10，格式是 1080p（1920*10
 </li>
 </ul>
 <p><strong>mpv.net_CM有更友好的界面操作性，更利于萌新上手，但某种程度上也限制了自由发挥。</strong></p>
-<h4 id="上一篇-看片全系列教程-视频篇"><a href="#上一篇-看片全系列教程-视频篇" class="headerlink" title="上一篇 看片全系列教程-视频篇"></a>上一篇 <a href="/project/e87c114f.html">看片全系列教程-视频篇</a></h4><h3 id="mpv播放器"><a href="#mpv播放器" class="headerlink" title="mpv播放器"></a>mpv播放器</h3><p><img src="/project/cd18c8e/mpv-logo.jpg" alt="img"></p>
+<h4 id="上一篇-看片全系列教程-视频篇"><a href="#上一篇-看片全系列教程-视频篇" class="headerlink" title="上一篇 看片全系列教程-视频篇"></a>上一篇 <a href="/project/e87c114f.html">看片全系列教程-视频篇</a></h4><h3 id="mpv播放器"><a href="#mpv播放器" class="headerlink" title="mpv播放器"></a>mpv播放器</h3><p><img src="/project/cd18c8e/mpv-logo.jpg" alt="mpv-logo"></p>
 <h4 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h4><p>mpv 是著名开源项目 MPlayer 的分支，因其对最新软硬件平台、视频标准以及各种高画质选项的支持而广受好评，也是目前非 Windows 平台上高画质播放器的不二选择。<br>由于 mpv 本身没有图形界面，各种设置需要通过手动编写配置文件来完成，使很多不熟悉命令行的普通用户望而却步。本文的主要目的就是为 Windows 和 macOS 用户提供一个 mpv 播放器的上手指南，手把手教你如何把 mpv 用起来。</p>
 <h4 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h4><p>Windows 用户到<a href="https://sourceforge.net/projects/mpv-player-windows/files/">这里</a>，点击 <code>stable</code> 文件夹，选择并下载最新版的 64-bit 压缩包。mpv 是原生绿色软件，将压缩包内所有文件解压到你想要的位置即可，例如<code>C:\mpv</code>。如果你希望双击就能用 mpv 打开媒体文件，请以管理员权限运行 <code>installer</code> 文件夹内的 <code>mpv-install.bat</code>。该软件仓库的维护者每周都会发布一个根据最新源代码编译的版本。</p>
 <p>macOS 用户到<a href="https://laboratory.stolendata.net/~djinn/mpv_osx/">这里</a>下载最新版的压缩包，解压后把得到的 <code>mpv.app</code> 直接拖进应用（Applications）文件夹内即可。如果你安装了 Homebrew，也可以直接运行 <code>brew cask install mpv</code> 来安装。安装之后首次运行时可能会被 macOS 安全设置阻止，需要到系统设置 – 安全与隐私中允许它。</p>
@@ -282,13 +282,13 @@ Hi10p_1080p：这里代表的是格式配置是 hi10，格式是 1080p（1920*10
 </ul>
 <h4 id="极简的程序使用介绍"><a href="#极简的程序使用介绍" class="headerlink" title="极简的程序使用介绍"></a>极简的程序使用介绍</h4><p>本模组无需下载原版mpv.net<br>运行 mpvnet.exe 即可启动程序<br>需要用户已安装 .NET framework 4.8 运行库 （win10 1903及之后版本的系统内已集成） 指路链接<br>之前用过原版或者旧版的需要执行一次 mpvnet注册表信息清理.reg<br>恢复默认设置可执行 mpvnet设置重置与缓存清理.bat<br>mpvnet的 libmpv内核 可自行独立更新（替换文件目录中的 mpv-2.dll ）</p>
 <h4 id="预览"><a href="#预览" class="headerlink" title="预览"></a>预览</h4><p><strong>关于、多功能右键菜单</strong></p>
-<p><img src="/project/cd18c8e/mpvnet-01.webp" alt="img"></p>
+<p><img src="/project/cd18c8e/mpvnet-01.webp" alt="mpvnet-01"></p>
 <p><strong>图形化编辑器、快捷指令</strong></p>
-<p><img src="/project/cd18c8e/mpvnet-02.webp" alt="img"></p>
+<p><img src="/project/cd18c8e/mpvnet-02.webp" alt="mpvnet-02"></p>
 <p><strong>两类播放列表、多种操作面板</strong></p>
-<p><img src="/project/cd18c8e/mpvnet-03.webp" alt="img"></p>
+<p><img src="/project/cd18c8e/mpvnet-03.webp" alt="mpvnet-03"></p>
 <p><strong>富媒体信息、简易化的mpv指令查询</strong></p>
-<p><img src="/project/cd18c8e/mpvnet-04.webp" alt="img"></p>
+<p><img src="/project/cd18c8e/mpvnet-04.webp" alt="mpvnet-04"></p>
 <h3 id="potplayer"><a href="#potplayer" class="headerlink" title="potplayer"></a>potplayer</h3><h4 id="下载链接-1"><a href="#下载链接-1" class="headerlink" title="下载链接"></a>下载链接</h4><ul>
 <li>蓝奏云：<a href="https://wwn.lanzoum.com/iTA4n07bgoed">https://wwn.lanzoum.com/iTA4n07bgoed</a></li>
 <li>阿里云盘：<a href="https://www.aliyundrive.com/s/fM8hPmjxcvM">https://www.aliyundrive.com/s/fM8hPmjxcvM</a></li>
