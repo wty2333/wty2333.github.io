@@ -81,6 +81,27 @@
   </url>
   
   <url>
+    <loc>https://wty2333.github.io/tags/%E6%82%A0%E5%93%89%E6%97%A5%E5%B8%B8%E5%A4%A7%E7%8E%8B/</loc>
+    <lastmod>2022-07-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wty2333.github.io/tags/%E6%97%A5%E5%B8%B8/</loc>
+    <lastmod>2022-07-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wty2333.github.io/tags/%E6%B2%BB%E6%84%88/</loc>
+    <lastmod>2022-07-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://wty2333.github.io/tags/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2022-07-04</lastmod>
     <changefreq>weekly</changefreq>
@@ -122,28 +143,14 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://wty2333.github.io/tags/%E6%82%A0%E5%93%89%E6%97%A5%E5%B8%B8%E5%A4%A7%E7%8E%8B/</loc>
-    <lastmod>2022-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wty2333.github.io/tags/%E6%97%A5%E5%B8%B8/</loc>
-    <lastmod>2022-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wty2333.github.io/tags/%E6%B2%BB%E6%84%88/</loc>
-    <lastmod>2022-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
+  
+  <url>
+    <loc>https://wty2333.github.io/categories/%E7%95%AA%E5%89%A7/</loc>
+    <lastmod>2022-07-04</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>https://wty2333.github.io/categories/%E6%95%99%E7%A8%8B/</loc>
@@ -154,13 +161,6 @@
   
   <url>
     <loc>https://wty2333.github.io/categories/%E6%95%99%E7%A8%8B/%E7%9C%8B%E7%89%87%E7%B3%BB%E5%88%97/</loc>
-    <lastmod>2022-07-04</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wty2333.github.io/categories/%E7%95%AA%E5%89%A7/</loc>
     <lastmod>2022-07-04</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
