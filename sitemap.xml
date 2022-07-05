@@ -20,6 +20,15 @@
   </url>
   
   <url>
+    <loc>https://wty2333.github.io/project/9391bfd7.html</loc>
+    
+    <lastmod>2022-07-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://wty2333.github.io/project/cf37594a.html</loc>
     
     <lastmod>2022-07-05</lastmod>
@@ -128,15 +137,6 @@
   </url>
   
   <url>
-    <loc>https://wty2333.github.io/project/9391bfd7.html</loc>
-    
-    <lastmod>2022-07-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://wty2333.github.io/project/9a5c726e.html</loc>
     
     <lastmod>2022-07-05</lastmod>
@@ -191,13 +191,6 @@
 
   
   <url>
-    <loc>https://wty2333.github.io/tags/Hello-World/</loc>
-    <lastmod>2022-07-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://wty2333.github.io/tags/%E6%82%A0%E5%93%89%E6%97%A5%E5%B8%B8%E5%A4%A7%E7%8E%8B/</loc>
     <lastmod>2022-07-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -213,6 +206,13 @@
   
   <url>
     <loc>https://wty2333.github.io/tags/%E6%B2%BB%E6%84%88/</loc>
+    <lastmod>2022-07-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wty2333.github.io/tags/Hello-World/</loc>
     <lastmod>2022-07-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
