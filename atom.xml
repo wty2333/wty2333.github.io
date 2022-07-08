@@ -3,11 +3,11 @@
   <title>Welcome to Wty&#39;s</title>
   
   <subtitle>live to die</subtitle>
-  <link href="https://wty2333.gitee.io/atom.xml" rel="self"/>
+  <link href="https://wty2333.github.io/atom.xml" rel="self"/>
   
-  <link href="https://wty2333.gitee.io/"/>
-  <updated>2022-07-07T04:23:56.402Z</updated>
-  <id>https://wty2333.gitee.io/</id>
+  <link href="https://wty2333.github.io/"/>
+  <updated>2022-07-07T11:09:59.837Z</updated>
+  <id>https://wty2333.github.io/</id>
   
   <author>
     <name>Wty</name>
@@ -18,12 +18,12 @@
   
   <entry>
     <title>看片全系列教程，从入门到入土:三 BT篇</title>
-    <link href="https://wty2333.gitee.io/project/3feef135.html"/>
-    <id>https://wty2333.gitee.io/project/3feef135.html</id>
+    <link href="https://wty2333.github.io/project/3feef135.html"/>
+    <id>https://wty2333.github.io/project/3feef135.html</id>
     <published>2022-07-07T03:25:37.000Z</published>
-    <updated>2022-07-07T04:23:56.402Z</updated>
+    <updated>2022-07-07T11:09:59.837Z</updated>
     
-    <content type="html"><![CDATA[<p><strong>按照 BT 的机制，没速度首先应该责怪的是所有下载者，而不是发布者。——题记</strong></p><img src="/project/3feef135/v2-c98df381db7859a499fe6734367c1ee2_2022-07-07_11-34-19.jpg" class="" title="v2-c98df381db7859a499fe6734367c1ee2_2022-07-07_11-34-19"><p><strong>系列</strong>：<a href="/categories/%E6%95%99%E7%A8%8B/%E7%9C%8B%E7%89%87%E7%B3%BB%E5%88%97/">看片系列，从入门到如土</a></p><span id="more"></span><h3 id="序"><a class="markdownIt-Anchor" href="#序"></a> 序</h3><p>bt下载在早年很流行，现在大多在线看视频，但就我看番的经验来看。大多压制组会将发布的作品发布在各大bt平台中(可能是需要在国外分流的原因，很少直接使用网盘资源),当然也可以找别人将下载的资源上传到网盘的分享。</p><p>所以这篇文章用以介绍BT下载以及好用的BT下载软件。</p><p>可直接前往<a href="#BT%E8%BD%AF%E4%BB%B6%E5%8F%8A%E4%BD%BF%E7%94%A8">BT软件及使用</a></p><h3 id="什么是bt我为什么会遇到下载困难"><a class="markdownIt-Anchor" href="#什么是bt我为什么会遇到下载困难"></a> 什么是BT？我为什么会遇到下载困难？</h3><p>BitTorrent (BT) 基于 P2P 协议：Peer to Peer，或者更通俗地说：Person to Person，文件从具有该资源的用户传递给其它用户并继续传递下去，而不通过中心服务器传递给用户。在标准的 BT 规范里面，严格遵循着 总下载=总上传 的规则：能下载到的数据，一定是别人传给你的；同样，别人能下载的数据，是包括你在内其他的参与者共同上传的。除了新种子刚刚发布的若干小时内，一般来说在其它时间内超过九成的总上传量应该是由用户相互贡献的，而不是由发布者贡献的。这个道理就跟传播消息时候的一传十，十传百一样。越多知道消息的参与传播，这个消息散布的就越快。</p><p>BT 下载速度取决于<strong>其他下载同一资源的用户上传速度</strong>。</p><p>也就是<strong>做种</strong>的人越多，你的下载速度越快！如果一个资源没人上传，你就完全没有下载速度。</p><blockquote><p>做种： 指上传文件数据给其他 BT 用户的行为。</p></blockquote><p>除了迅雷这种把下载过的资源缓存到自己服务器上来实现“加速”的 BT软件，其他的 BT 软件都是单纯靠其他用户给你提供下载速度。</p><p>直到迅雷 <s>可能死于17年10月</s>（其实还活着）、旋风 死于17年9月等国产吸血客户端兴起之前，BT 一直是以我为人人，人人为我的分享精神存在。但是这些国产软件改变了这个规则 —— 没人强行规定我要上传吧？也没人说我要传一定要传给任何人吧？对于那些不希望看到什么 “迅雷在上传数据，是不是在上传我的个人文件啊” 的人，我就不做上传；否则，我只上传给我的用户群，让我的用户群体验高速的下载速度，我为啥要管别的软件呢？我知道了消息我不说，或者只在一个很小的朋友圈里面说，一般人我不告诉他。这种客户端我们称之为吸血客户端 —— 只吸血，不奉献。</p><p>这些下载软件可能并不一定只是因为能够下载 BT 资源而流行起来的，但是其流行和其吸血下载的特性使得 BT 分享在中国陷入了危机。一方面，上传量的减少使得速度整体受限制；另一方面，很多正统的 BT 封杀了迅雷旋风等客户端——你没有严格遵守 BT 协议，我为啥要帮你。不过商业公司想出了简单粗暴的方法——强行让 BT 从 P2P 变成了 HTTP —— 推出高速通道和离线下载等服务，使用专业服务器为其用户提供高速下载体验。同样只下载不对公众上传的，还有各大网盘的离线功能。可惜，持续的版权压力+净网行动+举报狗让即使是付费服务也变得越来越难用，甚至出现了停止运营和大规模下载故障。</p><h3 id="bt软件及使用"><a class="markdownIt-Anchor" href="#bt软件及使用"></a> BT软件及使用</h3><p>分享形势越来越严峻，本文并不提倡一些用户继续只吸血不哺乳的做法，而是希望大家更多地使用正规 BT 客户端：</p><p><strong>具体可参考：</strong> <a href="https://trackerslist.com/#/zh%EF%BC%8C%E4%BD%9C%E8%80%85%E6%95%B4%E5%90%88%E4%BA%86%E5%85%A8%E7%BD%91%E7%83%AD%E9%97%A8">https://trackerslist.com/#/zh，作者整合了全网热门</a> Tracker，经过筛选过滤，最终得到了一个优质的 Tracker 列表方便大家使用~</p><h4 id="tracker是什么"><a class="markdownIt-Anchor" href="#tracker是什么"></a> Tracker是什么</h4><ul><li><em>因为 <strong>BT 下载文件</strong>全都是<strong>其他用户上传给你的</strong>。</em></li><li><em>所以 <strong>BT 下载速度</strong>就等于<strong>其他用户的上传速度</strong>。</em></li></ul><p>链接到的做种上传用户越多，你的下载速度就越快，而用户通过 <strong>Peer、DHT、Tracker</strong> 获得。</p><table><thead><tr><th><strong>Peer</strong></th><th>在获得一个有效用户后才会起作用，该用户会把它知道的其他用户信息告诉你。</th></tr></thead><tbody><tr><td><strong>DHT</strong></td><td>Peer 加强版，分布式储存用户信息，获得用户的效率更高，但需要下载热门资源来养。</td></tr><tr><td><strong>Tracker</strong></td><td>记录所有正在上传/下载同一资源的用户信息并提供给你，帮助你与其他用户建立连接。</td></tr></tbody></table><blockquote><p><strong>以上三者的优缺点是互补的，不存在谁替代谁，只有互相搭配 一起使用 效果才最好~</strong></p></blockquote><div><div class="fold_hider"><div class="close hider_title">以下为完整列表</div></div><div class="fold"><ul><li><strong><a href="https://cf.trackerslist.com/all.txt">https://cf.trackerslist.com/all.txt</a></strong> ( Cloudflare CDN</li><li><strong><a href="https://ghproxy.futils.com/https://github.com/XIU2/TrackersListCollection/blob/master/all.txt">https://ghproxy.futils.com/…/XIU2/TrackersListCollection/blob/master/all.txt</a></strong> ( 中国香港 CDN，下同</li><li><strong><a href="https://raw.iqiq.io/XIU2/TrackersListCollection/master/all.txt">https://raw.iqiq.io/XIU2/TrackersListCollection/master/all.txt</a></strong></li><li><strong><a href="https://gcore.jsdelivr.net/gh/XIU2/TrackersListCollection/all.txt">https://gcore.jsdelivr.net/gh/XIU2/TrackersListCollection/all.txt</a></strong> ( 国外 CDN，适合移动、电信</li><li><strong><a href="https://fastly.jsdelivr.net/gh/XIU2/TrackersListCollection/all.txt">https://fastly.jsdelivr.net/gh/XIU2/TrackersListCollection/all.txt</a></strong> ( 日本 CDN，适合联通，下同</li><li><strong><a href="https://raw.fastgit.org/XIU2/TrackersListCollection/master/all.txt">https://raw.fastgit.org/XIU2/TrackersListCollection/master/all.txt</a></strong></li><li><strong><a href="https://cdn.staticaly.com/gh/XIU2/TrackersListCollection/master/all.txt">https://cdn.staticaly.com/gh/XIU2/TrackersListCollection/master/all.txt</a></strong></li></ul></div></div><h4 id="aria2"><a class="markdownIt-Anchor" href="#aria2"></a> Aria2</h4><p>Aria2 下载及使用：<a href="http://aria2.baisheng999.com/">Aria2中文网</a></p><div><div class="fold_hider"><div class="close hider_title">[点击展开]-查看Aria2格式的Tracker列表</div></div><div class="fold"><ul><li><strong><a href="https://cdn.staticaly.com/gh/XIU2/TrackersListCollection/master/best_aria2.txt">https://trackerslist…/best_aria2.txt</a></strong></li><li><strong><a href="https://cdn.staticaly.com/gh/XIU2/TrackersListCollection/master/all_aria2.txt">https://trackerslist…/all_aria2.txt</a></strong></li><li><strong><a href="https://cdn.staticaly.com/gh/XIU2/TrackersListCollection/master/http_aria2.txt">https://trackerslist…/http_aria2.txt</a></strong></li></ul></div></div><p>复制 Aria2 格式 Tracker 文件中内容后，粘贴到配置文件 <code>aria2.conf</code> 中 <code>bt-tracker=</code> 的后面，示例如下：</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAINTEXT"><figure class="iseeu highlight /plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bt-tracker=http://aaa.aa:80/announce,udp://bbb.bb:80/announce</span><br></pre></td></tr></table></figure></div><blockquote><p><strong>注意：</strong> 粘贴前请先删除旧 Tracker 内容，避免格式错误！</p></blockquote><h4 id="bitcomic比特彗星"><a class="markdownIt-Anchor" href="#bitcomic比特彗星"></a> BitComic(比特彗星)</h4><blockquote><p><strong>官方网站：<a href="http://www.bitcomet.com/">http://www.bitcomet.com</a></strong><br /><strong>便携版：<a href="https://pan.lanzouq.com/b073c7g4f">https://pan.lanzouq.com/b073c7g4f</a> (已配置 Tracker 并屏蔽迅雷)</strong></p></blockquote><ul><li><strong>工具 - 选项 - 任务设置 - BT下载 - Tracker</strong></li></ul><blockquote><p>比特彗星的 <strong>黄灯 绿灯</strong> 对下载速度影响较小，主要影响上传速度，绿灯需要 <strong>公网IP + 端口映射(UPnP)</strong> 。</p></blockquote><p><strong>勾选下图红框内的选项</strong> 并填写 Tracker URL 后点击 <code>立即更新</code> 上面就会显示获取的 Tracker 了。</p><img src="/project/3feef135/zh-10.png" class="" title="zh-10"><h4 id="qbittorrent-enhanced-edition-增强版"><a class="markdownIt-Anchor" href="#qbittorrent-enhanced-edition-增强版"></a> qBittorrent Enhanced Edition (增强版)</h4><blockquote><p><strong>Github：<a href="https://github.com/c0re100/qBittorrent-Enhanced-Edition">https://github.com/c0re100/qBittorrent-Enhanced-Edition</a></strong><br /><strong>便携版：<a href="https://pan.lanzouq.com/b073dnr7g">https://pan.lanzouq.com/b073dnr7g</a> (已配置 Tracker 并屏蔽迅雷)</strong></p></blockquote><blockquote><p>在 qBittorrent 的基础上增加了很多功能，例如：屏蔽迅雷、订阅 Tracker URL ，可以很方便的配合本项目使用。</p></blockquote><ul><li><strong>选项[齿轮图标] - BitTorrent</strong></li></ul><p><strong>勾选下图红框内的选项</strong> 并填写 Tracker URL 后点击 <code>Apply</code> 保存，<strong>然后重启 qBittorrentEE 。</strong></p><img src="/project/3feef135/zh-11.png" class="" title="img"><h4 id="motrix"><a class="markdownIt-Anchor" href="#motrix"></a> Motrix</h4><blockquote><p><strong>官方网站：<a href="https://motrix.app/">https://motrix.app</a></strong></p></blockquote><ul><li><strong>选项(左下角) - 进阶设置 - Tracker 服务器 - ﹀</strong></li></ul><p><strong>勾选任意一个选项（如 all.txt）</strong> ，然后点击 <code>保存并应用</code> 保存。</p><img src="/project/3feef135/zh-13.png" class="" title="img"><h4 id="file-centipede"><a class="markdownIt-Anchor" href="#file-centipede"></a> File Centipede</h4><blockquote><p><strong>官方网站：<a href="http://www.filecxx.com/">http://www.filecxx.com</a></strong></p></blockquote><ul><li><strong>设置 - BT 追踪器 - 订阅</strong><br />右键空白处在右键菜单中选择 <code>添加</code>，填写 Tracker URL 后点击 <code>保存</code> 。</li></ul><img src="/project/3feef135/zh-14.png" class="" title="img"><h4 id="关于迅雷"><a class="markdownIt-Anchor" href="#关于迅雷"></a> 关于迅雷</h4><p>迅雷吸血是事实，但迅雷独特的下载方式：<strong>将用户下载过的文件放在缓存服务器，即使是死种也能下载</strong></p><p>所以我放了迅雷<s>破解版</s>在</p><ul><li>蓝奏云：<a href="https://wwn.lanzoum.com/iu81i07hspoh">https://wwn.lanzoum.com/iu81i07hspoh</a> 密码:dhyb</li><li>阿里云盘：<a href="https://www.aliyundrive.com/s/dGdZGWccu6x">https://www.aliyundrive.com/s/dGdZGWccu6x</a></li></ul><p><strong>解压后点击绿化即可使用</strong></p><img src="/project/3feef135/image-20220707120946456.png" class="" title="image-20220707120946456"><p><strong>登陆账号就是满级VIP</strong></p><img src="/project/3feef135/image-20220707121015122.png" class="" title="image-20220707121015122"><p><strong>重要的事说三遍</strong>，<strong>最好只用迅雷下死种(即正规软件下不动的种子)</strong></p><p><strong>重要的事说三遍</strong>，<strong>最好只用迅雷下死种(即正规软件下不动的种子)</strong></p><p><strong>重要的事说三遍</strong>，<strong>最好只用迅雷下死种(即正规软件下不动的种子)</strong></p><h4 id="为什么有些-tracker-不回应"><a class="markdownIt-Anchor" href="#为什么有些-tracker-不回应"></a> 为什么有些 Tracker 不回应?</h4><p>这是很常见的情况，很多因素都会导致这种情况的出现。</p><ul><li><strong>首先</strong>，目前热门 Tracker 基本都是国外服务器（毕竟国内要备案），因此可能会出现链接问题 …<br /><em>（一般 HTTPS 的链接成功率更高，HTTP、UDP 这种明文的容易被运营商干扰、屏蔽 …</em></li><li><strong>其次</strong>，一些 Tracker 域名/ IP 可能被你当地运营商屏蔽了（特别是移动这个问题比较严重 …</li><li><strong>相应</strong>，一些 Tracker 服务器也可能屏蔽了 国内用户 / 你的 BT 软件（这就要问问迅雷了~</li><li><strong>最后</strong>，一些 Tracker 服务器没有你当前正在下载资源的相关信息。</li></ul><blockquote><p>不过也不用担心影响 BT 软件，毕竟 BT 软件重试几次就会忽略了（多线程）~</p></blockquote><h3 id="一些找资源的网站"><a class="markdownIt-Anchor" href="#一些找资源的网站"></a> 一些找资源的网站</h3><h4 id="动漫"><a class="markdownIt-Anchor" href="#动漫"></a> 动漫：</h4><ul><li><a href="https://dongmanhuayuan.myheartsite.com/#">动漫花园同步站</a></li><li><a href="https://outside.inari.site/">nyaa,日本的bt站</a>(有表站和里站)</li><li><a href="https://acg.rip/">acg.rip</a></li><li><a href="https://vcb-s.com/">Vcb-Studio</a>(VCB压制的作品首先在这里发布)</li><li><a href="https://share.dmhy.org/">动漫花园资源网</a></li><li><a href="https://bangumi.moe/">萌番组</a></li></ul><h4 id="电影"><a class="markdownIt-Anchor" href="#电影"></a> 电影</h4><ul><li><strong>强推</strong><a href="https://www.btnull.org/">片库网</a></li></ul><img src="/project/3feef135/image-20220707121726197.png" class="" title="image-20220707121726197"><img src="/project/3feef135/image-20220707121753478.png" class="" title="image-20220707121753478"><p>还可以找字幕</p><img src="/project/3feef135/image-20220707121821530.png" class="" title="image-20220707121821530"><ul><li><a href="https://rarbg.unblockninja.com/">RARBG</a></li></ul><p>国外的BT站，资源丰富，不过大多码率低</p><img src="/project/3feef135/image-20220707122039541.png" class="" title="image-20220707122039541"><img src="/project/3feef135/image-20220707122008478.png" class="" title="image-20220707122008478"><h3 id="参考链接"><a class="markdownIt-Anchor" href="#参考链接"></a> 参考链接</h3><ul><li><a href="https://zhuanlan.zhihu.com/p/87193566">「原创」为什么国内 BT 环境如此恶劣？下载速度如此糟糕？我总结了六点原因…</a></li><li><a href="https://trackerslist.com/#/zh">[XIU2/TrackersListCollection]</a></li><li><a href="https://vcb-s.com/archives/2584">从 BT 的基础说起——怎么解决 VCB-S 的资源没速度的问题</a></li></ul>]]></content>
+    <content type="html"><![CDATA[<p><strong>按照 BT 的机制，没速度首先应该责怪的是所有下载者，而不是发布者。——题记</strong></p><img src="/project/3feef135/v2-c98df381db7859a499fe6734367c1ee2_2022-07-07_11-34-19.jpg" class="" title="v2-c98df381db7859a499fe6734367c1ee2_2022-07-07_11-34-19"><p><strong>系列</strong>：<a href="/categories/%E6%95%99%E7%A8%8B/%E7%9C%8B%E7%89%87%E7%B3%BB%E5%88%97/">看片系列，从入门到如土</a></p><span id="more"></span><h3 id="序"><a class="markdownIt-Anchor" href="#序"></a> 序</h3><p>bt下载在早年很流行，现在大多在线看视频，但就我看番的经验来看。大多压制组会将发布的作品发布在各大bt平台中(可能是需要在国外分流的原因，很少直接使用网盘资源),当然也可以找别人将下载的资源上传到网盘的分享。</p><p>所以这篇文章用以介绍BT下载以及好用的BT下载软件。</p><p>可直接前往<a href="#BT%E8%BD%AF%E4%BB%B6%E5%8F%8A%E4%BD%BF%E7%94%A8">BT软件及使用</a></p><h3 id="什么是bt我为什么会遇到下载困难"><a class="markdownIt-Anchor" href="#什么是bt我为什么会遇到下载困难"></a> 什么是BT？我为什么会遇到下载困难？</h3><p>BitTorrent (BT) 基于 P2P 协议：Peer to Peer，或者更通俗地说：Person to Person，文件从具有该资源的用户传递给其它用户并继续传递下去，而不通过中心服务器传递给用户。在标准的 BT 规范里面，严格遵循着 总下载=总上传 的规则：能下载到的数据，一定是别人传给你的；同样，别人能下载的数据，是包括你在内其他的参与者共同上传的。除了新种子刚刚发布的若干小时内，一般来说在其它时间内超过九成的总上传量应该是由用户相互贡献的，而不是由发布者贡献的。这个道理就跟传播消息时候的一传十，十传百一样。越多知道消息的参与传播，这个消息散布的就越快。</p><p>BT 下载速度取决于<strong>其他下载同一资源的用户上传速度</strong>。</p><p>也就是<strong>做种</strong>的人越多，你的下载速度越快！如果一个资源没人上传，你就完全没有下载速度。</p><blockquote><p>做种： 指上传文件数据给其他 BT 用户的行为。</p></blockquote><p>除了迅雷这种把下载过的资源缓存到自己服务器上来实现“加速”的 BT软件，其他的 BT 软件都是单纯靠其他用户给你提供下载速度。</p><p>直到迅雷 <s>可能死于17年10月</s>（其实还活着）、旋风 死于17年9月等国产吸血客户端兴起之前，BT 一直是以我为人人，人人为我的分享精神存在。但是这些国产软件改变了这个规则 —— 没人强行规定我要上传吧？也没人说我要传一定要传给任何人吧？对于那些不希望看到什么 “迅雷在上传数据，是不是在上传我的个人文件啊” 的人，我就不做上传；否则，我只上传给我的用户群，让我的用户群体验高速的下载速度，我为啥要管别的软件呢？我知道了消息我不说，或者只在一个很小的朋友圈里面说，一般人我不告诉他。这种客户端我们称之为吸血客户端 —— 只吸血，不奉献。</p><p>这些下载软件可能并不一定只是因为能够下载 BT 资源而流行起来的，但是其流行和其吸血下载的特性使得 BT 分享在中国陷入了危机。一方面，上传量的减少使得速度整体受限制；另一方面，很多正统的 BT 封杀了迅雷旋风等客户端——你没有严格遵守 BT 协议，我为啥要帮你。不过商业公司想出了简单粗暴的方法——强行让 BT 从 P2P 变成了 HTTP —— 推出高速通道和离线下载等服务，使用专业服务器为其用户提供高速下载体验。同样只下载不对公众上传的，还有各大网盘的离线功能。可惜，持续的版权压力+净网行动+举报狗让即使是付费服务也变得越来越难用，甚至出现了停止运营和大规模下载故障。</p><h3 id="bt软件及使用"><a class="markdownIt-Anchor" href="#bt软件及使用"></a> BT软件及使用</h3><p>分享形势越来越严峻，本文并不提倡一些用户继续只吸血不哺乳的做法，而是希望大家更多地使用正规 BT 客户端：</p><p><strong>具体可参考：</strong> <a href="https://trackerslist.com/#/zh">https://trackerslist.com/#/zh</a> ，作者整合了全网热门 Tracker，经过筛选过滤，最终得到了一个优质的 Tracker 列表方便大家使用~</p><h4 id="tracker是什么"><a class="markdownIt-Anchor" href="#tracker是什么"></a> Tracker是什么</h4><ul><li><em>因为 <strong>BT 下载文件</strong>全都是<strong>其他用户上传给你的</strong>。</em></li><li><em>所以 <strong>BT 下载速度</strong>就等于<strong>其他用户的上传速度</strong>。</em></li></ul><p>链接到的做种上传用户越多，你的下载速度就越快，而用户通过 <strong>Peer、DHT、Tracker</strong> 获得。</p><table><thead><tr><th><strong>Peer</strong></th><th>在获得一个有效用户后才会起作用，该用户会把它知道的其他用户信息告诉你。</th></tr></thead><tbody><tr><td><strong>DHT</strong></td><td>Peer 加强版，分布式储存用户信息，获得用户的效率更高，但需要下载热门资源来养。</td></tr><tr><td><strong>Tracker</strong></td><td>记录所有正在上传/下载同一资源的用户信息并提供给你，帮助你与其他用户建立连接。</td></tr></tbody></table><blockquote><p><strong>以上三者的优缺点是互补的，不存在谁替代谁，只有互相搭配 一起使用 效果才最好~</strong></p></blockquote><div><div class="fold_hider"><div class="close hider_title">以下为完整列表</div></div><div class="fold"><ul><li><strong><a href="https://cf.trackerslist.com/all.txt">https://cf.trackerslist.com/all.txt</a></strong> ( Cloudflare CDN</li><li><strong><a href="https://ghproxy.futils.com/https://github.com/XIU2/TrackersListCollection/blob/master/all.txt">https://ghproxy.futils.com/…/XIU2/TrackersListCollection/blob/master/all.txt</a></strong> ( 中国香港 CDN，下同</li><li><strong><a href="https://raw.iqiq.io/XIU2/TrackersListCollection/master/all.txt">https://raw.iqiq.io/XIU2/TrackersListCollection/master/all.txt</a></strong></li><li><strong><a href="https://gcore.jsdelivr.net/gh/XIU2/TrackersListCollection/all.txt">https://gcore.jsdelivr.net/gh/XIU2/TrackersListCollection/all.txt</a></strong> ( 国外 CDN，适合移动、电信</li><li><strong><a href="https://fastly.jsdelivr.net/gh/XIU2/TrackersListCollection/all.txt">https://fastly.jsdelivr.net/gh/XIU2/TrackersListCollection/all.txt</a></strong> ( 日本 CDN，适合联通，下同</li><li><strong><a href="https://raw.fastgit.org/XIU2/TrackersListCollection/master/all.txt">https://raw.fastgit.org/XIU2/TrackersListCollection/master/all.txt</a></strong></li><li><strong><a href="https://cdn.staticaly.com/gh/XIU2/TrackersListCollection/master/all.txt">https://cdn.staticaly.com/gh/XIU2/TrackersListCollection/master/all.txt</a></strong></li></ul></div></div><h4 id="aria2"><a class="markdownIt-Anchor" href="#aria2"></a> Aria2</h4><p>Aria2 下载及使用：<a href="http://aria2.baisheng999.com/">Aria2中文网</a></p><div><div class="fold_hider"><div class="close hider_title">[点击展开]-查看Aria2格式的Tracker列表</div></div><div class="fold"><ul><li><strong><a href="https://cdn.staticaly.com/gh/XIU2/TrackersListCollection/master/best_aria2.txt">https://trackerslist…/best_aria2.txt</a></strong></li><li><strong><a href="https://cdn.staticaly.com/gh/XIU2/TrackersListCollection/master/all_aria2.txt">https://trackerslist…/all_aria2.txt</a></strong></li><li><strong><a href="https://cdn.staticaly.com/gh/XIU2/TrackersListCollection/master/http_aria2.txt">https://trackerslist…/http_aria2.txt</a></strong></li></ul></div></div><p>复制 Aria2 格式 Tracker 文件中内容后，粘贴到配置文件 <code>aria2.conf</code> 中 <code>bt-tracker=</code> 的后面，示例如下：</p><div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="PLAINTEXT"><figure class="iseeu highlight /plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bt-tracker=http://aaa.aa:80/announce,udp://bbb.bb:80/announce</span><br></pre></td></tr></table></figure></div><blockquote><p><strong>注意：</strong> 粘贴前请先删除旧 Tracker 内容，避免格式错误！</p></blockquote><h4 id="bitcomic比特彗星"><a class="markdownIt-Anchor" href="#bitcomic比特彗星"></a> BitComic(比特彗星)</h4><blockquote><p><strong>官方网站：<a href="http://www.bitcomet.com/">http://www.bitcomet.com</a></strong><br /><strong>便携版：<a href="https://pan.lanzouq.com/b073c7g4f">https://pan.lanzouq.com/b073c7g4f</a> (已配置 Tracker 并屏蔽迅雷)</strong></p></blockquote><ul><li><strong>工具 - 选项 - 任务设置 - BT下载 - Tracker</strong></li></ul><blockquote><p>比特彗星的 <strong>黄灯 绿灯</strong> 对下载速度影响较小，主要影响上传速度，绿灯需要 <strong>公网IP + 端口映射(UPnP)</strong> 。</p></blockquote><p><strong>勾选下图红框内的选项</strong> 并填写 Tracker URL 后点击 <code>立即更新</code> 上面就会显示获取的 Tracker 了。</p><img src="/project/3feef135/zh-10.png" class="" title="zh-10"><h4 id="qbittorrent-enhanced-edition-增强版"><a class="markdownIt-Anchor" href="#qbittorrent-enhanced-edition-增强版"></a> qBittorrent Enhanced Edition (增强版)</h4><blockquote><p><strong>Github：<a href="https://github.com/c0re100/qBittorrent-Enhanced-Edition">https://github.com/c0re100/qBittorrent-Enhanced-Edition</a></strong><br /><strong>便携版：<a href="https://pan.lanzouq.com/b073dnr7g">https://pan.lanzouq.com/b073dnr7g</a> (已配置 Tracker 并屏蔽迅雷)</strong></p></blockquote><blockquote><p>在 qBittorrent 的基础上增加了很多功能，例如：屏蔽迅雷、订阅 Tracker URL ，可以很方便的配合本项目使用。</p></blockquote><ul><li><strong>选项[齿轮图标] - BitTorrent</strong></li></ul><p><strong>勾选下图红框内的选项</strong> 并填写 Tracker URL 后点击 <code>Apply</code> 保存，<strong>然后重启 qBittorrentEE 。</strong></p><img src="/project/3feef135/zh-11.png" class="" title="img"><h4 id="motrix"><a class="markdownIt-Anchor" href="#motrix"></a> Motrix</h4><blockquote><p><strong>官方网站：<a href="https://motrix.app/">https://motrix.app</a></strong></p></blockquote><ul><li><strong>选项(左下角) - 进阶设置 - Tracker 服务器 - ﹀</strong></li></ul><p><strong>勾选任意一个选项（如 all.txt）</strong> ，然后点击 <code>保存并应用</code> 保存。</p><img src="/project/3feef135/zh-13.png" class="" title="img"><h4 id="file-centipede"><a class="markdownIt-Anchor" href="#file-centipede"></a> File Centipede</h4><blockquote><p><strong>官方网站：<a href="http://www.filecxx.com/">http://www.filecxx.com</a></strong></p></blockquote><ul><li><strong>设置 - BT 追踪器 - 订阅</strong><br />右键空白处在右键菜单中选择 <code>添加</code>，填写 Tracker URL 后点击 <code>保存</code> 。</li></ul><img src="/project/3feef135/zh-14.png" class="" title="img"><h4 id="关于迅雷"><a class="markdownIt-Anchor" href="#关于迅雷"></a> 关于迅雷</h4><p>迅雷吸血是事实，但迅雷独特的下载方式：<strong>将用户下载过的文件放在缓存服务器，即使是死种也能下载</strong></p><p>所以我放了迅雷<s>破解版</s>在</p><ul><li>蓝奏云：<a href="https://wwn.lanzoum.com/iu81i07hspoh">https://wwn.lanzoum.com/iu81i07hspoh</a> 密码:dhyb</li><li>阿里云盘：<a href="https://www.aliyundrive.com/s/dGdZGWccu6x">https://www.aliyundrive.com/s/dGdZGWccu6x</a></li></ul><p><strong>解压后点击绿化即可使用</strong></p><img src="/project/3feef135/image-20220707120946456.png" class="" title="image-20220707120946456"><p><strong>登陆账号就是满级VIP</strong></p><img src="/project/3feef135/image-20220707121015122.png" class="" title="image-20220707121015122"><p><strong>重要的事说三遍</strong>，<strong>最好只用迅雷下死种(即正规软件下不动的种子)</strong></p><p><strong>重要的事说三遍</strong>，<strong>最好只用迅雷下死种(即正规软件下不动的种子)</strong></p><p><strong>重要的事说三遍</strong>，<strong>最好只用迅雷下死种(即正规软件下不动的种子)</strong></p><h4 id="为什么有些-tracker-不回应"><a class="markdownIt-Anchor" href="#为什么有些-tracker-不回应"></a> 为什么有些 Tracker 不回应?</h4><p>这是很常见的情况，很多因素都会导致这种情况的出现。</p><ul><li><strong>首先</strong>，目前热门 Tracker 基本都是国外服务器（毕竟国内要备案），因此可能会出现链接问题 …<br /><em>（一般 HTTPS 的链接成功率更高，HTTP、UDP 这种明文的容易被运营商干扰、屏蔽 …</em></li><li><strong>其次</strong>，一些 Tracker 域名/ IP 可能被你当地运营商屏蔽了（特别是移动这个问题比较严重 …</li><li><strong>相应</strong>，一些 Tracker 服务器也可能屏蔽了 国内用户 / 你的 BT 软件（这就要问问迅雷了~</li><li><strong>最后</strong>，一些 Tracker 服务器没有你当前正在下载资源的相关信息。</li></ul><blockquote><p>不过也不用担心影响 BT 软件，毕竟 BT 软件重试几次就会忽略了（多线程）~</p></blockquote><h3 id="一些找资源的网站"><a class="markdownIt-Anchor" href="#一些找资源的网站"></a> 一些找资源的网站</h3><h4 id="动漫"><a class="markdownIt-Anchor" href="#动漫"></a> 动漫：</h4><ul><li><a href="https://dongmanhuayuan.myheartsite.com/#">动漫花园同步站</a></li><li><a href="https://outside.inari.site/">nyaa,日本的bt站</a>(有表站和里站)</li><li><a href="https://acg.rip/">acg.rip</a></li><li><a href="https://vcb-s.com/">Vcb-Studio</a>(VCB压制的作品首先在这里发布)</li><li><a href="https://share.dmhy.org/">动漫花园资源网</a></li><li><a href="https://bangumi.moe/">萌番组</a></li></ul><h4 id="电影"><a class="markdownIt-Anchor" href="#电影"></a> 电影</h4><ul><li><strong>强推</strong><a href="https://www.btnull.org/">片库网</a></li></ul><img src="/project/3feef135/image-20220707121726197.png" class="" title="image-20220707121726197"><img src="/project/3feef135/image-20220707121753478.png" class="" title="image-20220707121753478"><p>还可以找字幕</p><img src="/project/3feef135/image-20220707121821530.png" class="" title="image-20220707121821530"><ul><li><a href="https://rarbg.unblockninja.com/">RARBG</a></li></ul><p>国外的BT站，资源丰富，不过大多码率低</p><img src="/project/3feef135/image-20220707122039541.png" class="" title="image-20220707122039541"><img src="/project/3feef135/image-20220707122008478.png" class="" title="image-20220707122008478"><h3 id="参考链接"><a class="markdownIt-Anchor" href="#参考链接"></a> 参考链接</h3><ul><li><a href="https://zhuanlan.zhihu.com/p/87193566">「原创」为什么国内 BT 环境如此恶劣？下载速度如此糟糕？我总结了六点原因…</a></li><li><a href="https://trackerslist.com/#/zh">[XIU2/TrackersListCollection]</a></li><li><a href="https://vcb-s.com/archives/2584">从 BT 的基础说起——怎么解决 VCB-S 的资源没速度的问题</a></li></ul>]]></content>
     
     
     <summary type="html">&lt;p&gt;&lt;strong&gt;按照 BT 的机制，没速度首先应该责怪的是所有下载者，而不是发布者。——题记&lt;/strong&gt;&lt;/p&gt;
@@ -32,48 +32,52 @@
     
     
     
+    <category term="教程" scheme="https://wty2333.github.io/categories/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="教程" scheme="https://wty2333.gitee.io/tags/%E6%95%99%E7%A8%8B/"/>
+    <category term="看片系列" scheme="https://wty2333.github.io/categories/%E6%95%99%E7%A8%8B/%E7%9C%8B%E7%89%87%E7%B3%BB%E5%88%97/"/>
     
-    <category term="bt" scheme="https://wty2333.gitee.io/tags/bt/"/>
+    
+    <category term="教程" scheme="https://wty2333.github.io/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="bt" scheme="https://wty2333.github.io/tags/bt/"/>
     
   </entry>
   
   <entry>
     <title>四月是你的谎言</title>
-    <link href="https://wty2333.gitee.io/project/ba4f9ddf.html"/>
-    <id>https://wty2333.gitee.io/project/ba4f9ddf.html</id>
+    <link href="https://wty2333.github.io/project/ba4f9ddf.html"/>
+    <id>https://wty2333.github.io/project/ba4f9ddf.html</id>
     <published>2022-07-06T11:02:28.000Z</published>
-    <updated>2022-07-07T06:49:50.606Z</updated>
+    <updated>2022-07-08T06:49:17.297Z</updated>
     
-    <content type="html"><![CDATA[<img src="/project/ba4f9ddf/p2231630022.webp" class="" title="img"><span id="more"></span><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=29732992&auto=0&height=66"></iframe><h3 id="简介"><a class="markdownIt-Anchor" href="#简介"></a> 简介</h3><p>​从很小的时候起，在母亲的引导和教导下，有马公生（花江夏树 配音）便将成为优秀的钢琴师当做了自己的毕生理想，一路走来，亦斩获了不少佳绩。不幸的是，在11岁那年，有马的母亲去世了，而有马亦再也无法听见自己所演奏的琴声，如此一来，他同自己最初的梦想渐行渐远。<br />　　在念初三那年，一位名叫宫园薰（种田梨沙 配音）的女生出现在了有马的身边，薰演奏的乐器是小提琴。很快，有马便被薰身上所散发出来的才情和热情所吸引了。让有马没有想到的是，薰竟然指定有马成为她比赛中的伴奏，在薰的影响下，有马渐渐重燃了对于钢琴的热爱，他和薰之间的距离也因此越来越近。</p><h3 id="简评"><a class="markdownIt-Anchor" href="#简评"></a> 简评</h3><h4 id="e01"><a class="markdownIt-Anchor" href="#e01"></a> E01</h4><p>失去母亲而无法弹钢琴，世界变得无比单调的少年</p><img src="/project/ba4f9ddf/image-20220706191020287.png" class="" title="image-20220706191020287"><p>奇迹般地偶遇一个女生</p><img src="/project/ba4f9ddf/image-20220706191102467.png" class="" title="image-20220706191102467"><img src="/project/ba4f9ddf/image-20220706191108533.png" class="" title="image-20220706191108533"><p><strong>不过op真的很赞</strong></p><p>虽然经常把男主看成公主</p><h4 id="e02"><a class="markdownIt-Anchor" href="#e02"></a> E02</h4><p>优雅</p><img src="/project/ba4f9ddf/0013.jpg" class="" width="0013"><p>找到了意义</p><img src="/project/ba4f9ddf/0014.jpg" class="" width="0014"><h4 id="e03"><a class="markdownIt-Anchor" href="#e03"></a> E03</h4><p>男主在女主”帮助“下能弹钢琴了</p><p>听不到钢琴声就是心理原因吧</p><p>困于过去无法走出</p><img src="/project/ba4f9ddf/0015.jpg" class="" width="0015"><p>朋友让他生活出现色彩</p><h4 id="e04"><a class="markdownIt-Anchor" href="#e04"></a> E04</h4><p>男主的血未免有些多</p><p>从乐谱中、母亲的束缚中走出</p><p>音乐是自由的</p><img src="/project/ba4f9ddf/0016-16571087762343.jpg" class="" width="0016"><p>男主演奏还是没有走出来</p><img src="/project/ba4f9ddf/0017.jpg" class="" width="0017"><h4 id="e05"><a class="markdownIt-Anchor" href="#e05"></a> E05</h4><p>女主有病在身，四月，是谁的谎言呢</p><h4 id="e06"><a class="markdownIt-Anchor" href="#e06"></a> E06</h4><p>青梅竹马出问题了啊</p><p>怎么看都觉得好看</p><h4 id="e08"><a class="markdownIt-Anchor" href="#e08"></a> E08</h4><p>有马两个对手好强</p><p>不过为什么黄色是寂寞（虽然也有道理</p><h4 id="e09"><a class="markdownIt-Anchor" href="#e09"></a> E09</h4><img src="/project/ba4f9ddf/0001.jpg" class="" width="0001"><p>这一抹红色</p><p>在这样的生活中</p><img src="/project/ba4f9ddf/0002.jpg" class="" width="0002"><h4 id="e10"><a class="markdownIt-Anchor" href="#e10"></a> E10</h4><p>公生回来了，这是最开始的他，让人听了想成为钢琴家的他</p><img src="/project/ba4f9ddf/0003.jpg" class="" width="0003"><p>他的世界自此出现了色彩</p><img src="/project/ba4f9ddf/0004.jpg" class="" width="0004"><h4 id="e11"><a class="markdownIt-Anchor" href="#e11"></a> E11</h4><p>好温柔</p><img src="/project/ba4f9ddf/0005.jpg" class="" width="0005"><p>果然是女主的谎言么</p>]]></content>
+    <content type="html"><![CDATA[<img src="/project/ba4f9ddf/p2231630022.webp" class="" title="img"><span id="more"></span><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=29732992&auto=0&height=66"></iframe><h3 id="简介"><a class="markdownIt-Anchor" href="#简介"></a> 简介</h3><p>​从很小的时候起，在母亲的引导和教导下，有马公生（花江夏树 配音）便将成为优秀的钢琴师当做了自己的毕生理想，一路走来，亦斩获了不少佳绩。不幸的是，在11岁那年，有马的母亲去世了，而有马亦再也无法听见自己所演奏的琴声，如此一来，他同自己最初的梦想渐行渐远。<br />　　在念初三那年，一位名叫宫园薰（种田梨沙 配音）的女生出现在了有马的身边，薰演奏的乐器是小提琴。很快，有马便被薰身上所散发出来的才情和热情所吸引了。让有马没有想到的是，薰竟然指定有马成为她比赛中的伴奏，在薰的影响下，有马渐渐重燃了对于钢琴的热爱，他和薰之间的距离也因此越来越近。</p><h3 id="简评"><a class="markdownIt-Anchor" href="#简评"></a> 简评</h3><h4 id="e01"><a class="markdownIt-Anchor" href="#e01"></a> E01</h4><p>失去母亲而无法弹钢琴，世界变得无比单调的少年</p><img src="/project/ba4f9ddf/image-20220706191020287.png" class="" title="image-20220706191020287"><p>奇迹般地偶遇一个女生</p><img src="/project/ba4f9ddf/image-20220706191102467.png" class="" title="image-20220706191102467"><img src="/project/ba4f9ddf/image-20220706191108533.png" class="" title="image-20220706191108533"><p><strong>不过op真的很赞</strong></p><p>虽然经常把男主看成公主</p><h4 id="e02"><a class="markdownIt-Anchor" href="#e02"></a> E02</h4><p>优雅</p><img src="/project/ba4f9ddf/0013.jpg" class="" width="0013"><p>找到了意义</p><img src="/project/ba4f9ddf/0014.jpg" class="" width="0014"><h4 id="e03"><a class="markdownIt-Anchor" href="#e03"></a> E03</h4><p>男主在女主”帮助“下能弹钢琴了</p><p>听不到钢琴声就是心理原因吧</p><p>困于过去无法走出</p><img src="/project/ba4f9ddf/0015.jpg" class="" width="0015"><p>朋友让他生活出现色彩</p><h4 id="e04"><a class="markdownIt-Anchor" href="#e04"></a> E04</h4><p>男主的血未免有些多</p><p>从乐谱中、母亲的束缚中走出</p><p>音乐是自由的</p><img src="/project/ba4f9ddf/0016-16571087762343.jpg" class="" width="0016"><p>男主演奏还是没有走出来</p><img src="/project/ba4f9ddf/0017.jpg" class="" width="0017"><h4 id="e05"><a class="markdownIt-Anchor" href="#e05"></a> E05</h4><p>女主有病在身，四月，是谁的谎言呢</p><h4 id="e06"><a class="markdownIt-Anchor" href="#e06"></a> E06</h4><p>青梅竹马出问题了啊</p><p>怎么看都觉得好看</p><h4 id="e08"><a class="markdownIt-Anchor" href="#e08"></a> E08</h4><p>有马两个对手好强</p><p>不过为什么黄色是寂寞（虽然也有道理</p><h4 id="e09"><a class="markdownIt-Anchor" href="#e09"></a> E09</h4><img src="/project/ba4f9ddf/0001.jpg" class="" width="0001"><p>这一抹红色</p><p>在这样的生活中</p><img src="/project/ba4f9ddf/0002.jpg" class="" width="0002"><h4 id="e10"><a class="markdownIt-Anchor" href="#e10"></a> E10</h4><p>公生回来了，这是最开始的他，让人听了想成为钢琴家的他</p><img src="/project/ba4f9ddf/0003.jpg" class="" width="0003"><p>他的世界自此出现了色彩</p><img src="/project/ba4f9ddf/0004.jpg" class="" width="0004"><h4 id="e11"><a class="markdownIt-Anchor" href="#e11"></a> E11</h4><p>好温柔</p><img src="/project/ba4f9ddf/0005.jpg" class="" width="0005"><p>果然是女主的谎言么</p><h4 id="e12"><a class="markdownIt-Anchor" href="#e12"></a> E12</h4><p>总感觉像DIO爷的咋瓦鲁多 high铁鸭子</p><img src="/project/ba4f9ddf/0001-16571932497111.jpg" class="" width="0001"><p>能猜到薰有病在身</p><img src="/project/ba4f9ddf/0002-16571935092112.jpg" class="" width="0002"><p>公生二号(友人B)</p><img src="/project/ba4f9ddf/0003-16571939716323.jpg" class="" width="0003"><h4 id="e13"><a class="markdownIt-Anchor" href="#e13"></a> E13</h4><p>终究是母亲</p><img src="/project/ba4f9ddf/0004-16571946697914.jpg" class="" width="0004"><h4 id="e14"><a class="markdownIt-Anchor" href="#e14"></a> E14</h4><p>后院失火</p><img src="/project/ba4f9ddf/0006.jpg" class="" width="0006"><img src="/project/ba4f9ddf/0007.jpg" class="" width="0007"><h4 id="e15"><a class="markdownIt-Anchor" href="#e15"></a> E15</h4><p>好心酸</p><img src="/project/ba4f9ddf/0008.jpg" class="" width="0008"><p>不会是和他妈一样的病吧</p><h4 id="e22"><a class="markdownIt-Anchor" href="#e22"></a> E22</h4><p>绝响</p><img src="/project/ba4f9ddf/0001-16572618415801.jpg" class="" width="0001"><img src="/project/ba4f9ddf/0002-16572619985232.jpg" class="" width="0002"><p>这里画面和音乐配合的好棒</p><img src="/project/ba4f9ddf/0003-16572624743383.jpg" class="" width="0003"><img src="/project/ba4f9ddf/image-20220708144439408.png" class="" title="image-20220708144439408"><p><a href="https://bgm.tv/blog/302253">四月是你的谎言</a></p><p>这是一部制作用心的作品，讲述了一个不完美的爱情，充满了遗憾的青春与不断前进的人生。<br />第一幕金色长发熏因刻意的谎言宛如太阳闯入的黑白键世界的公生，可逐渐暗淡的色与生命却更像是烟火，她只能照亮公生一年的人生，转瞬即逝，充满了悲伤却又绚丽多彩。<br />爱情是小心而又谨慎卑微的，渡偷偷的喜欢着熏甘愿成为“友人A”，椿用力的拍着公生的肩膀当着青梅竹马，相互喜欢的主角只敢从音乐中诉说着自己的感情，<br />不止于青春的爱情，友人队友憧憬的对象每个人都在不断前进。<br />制作组用心的将资金放在了重要的演奏上那流畅的按键，拉动的琴弦。横山克的音乐同样将这悲伤温柔的情感表达的淋漓尽致。<br />这作品可以先给每一位思念起自己不完美的青春，而又勇敢前行的人。</p><p><strong>I met the girl under full-bloomed cherry blossoms,</strong><br /><strong>and my fate has begun to change.</strong></p>]]></content>
     
     
     <summary type="html">&lt;img src=&quot;/project/ba4f9ddf/p2231630022.webp&quot; class=&quot;&quot; title=&quot;img&quot;&gt;</summary>
     
     
     
-    <category term="番剧" scheme="https://wty2333.gitee.io/categories/%E7%95%AA%E5%89%A7/"/>
+    <category term="番剧" scheme="https://wty2333.github.io/categories/%E7%95%AA%E5%89%A7/"/>
     
     
-    <category term="番剧" scheme="https://wty2333.gitee.io/tags/%E7%95%AA%E5%89%A7/"/>
+    <category term="番剧" scheme="https://wty2333.github.io/tags/%E7%95%AA%E5%89%A7/"/>
     
-    <category term="四月是你的谎言" scheme="https://wty2333.gitee.io/tags/%E5%9B%9B%E6%9C%88%E6%98%AF%E4%BD%A0%E7%9A%84%E8%B0%8E%E8%A8%80/"/>
+    <category term="四月是你的谎言" scheme="https://wty2333.github.io/tags/%E5%9B%9B%E6%9C%88%E6%98%AF%E4%BD%A0%E7%9A%84%E8%B0%8E%E8%A8%80/"/>
     
-    <category term="恋爱" scheme="https://wty2333.gitee.io/tags/%E6%81%8B%E7%88%B1/"/>
+    <category term="恋爱" scheme="https://wty2333.github.io/tags/%E6%81%8B%E7%88%B1/"/>
     
-    <category term="音乐" scheme="https://wty2333.gitee.io/tags/%E9%9F%B3%E4%B9%90/"/>
+    <category term="音乐" scheme="https://wty2333.github.io/tags/%E9%9F%B3%E4%B9%90/"/>
     
   </entry>
   
   <entry>
     <title>攻壳机动队-神山健治</title>
-    <link href="https://wty2333.gitee.io/project/cc4f77de.html"/>
-    <id>https://wty2333.gitee.io/project/cc4f77de.html</id>
+    <link href="https://wty2333.github.io/project/cc4f77de.html"/>
+    <id>https://wty2333.github.io/project/cc4f77de.html</id>
     <published>2022-07-06T06:45:11.000Z</published>
-    <updated>2022-07-07T08:03:11.768Z</updated>
+    <updated>2022-07-08T08:38:20.492Z</updated>
     
-    <content type="html"><![CDATA[<img src="/project/cc4f77de/0003.jpg" class="" width="0003"><h2 id="序"><a class="markdownIt-Anchor" href="#序"></a> 序</h2><p>神作，听过名字后一直想看，之前每天两集把SAC看完了，博客用以记录观看记录吧</p><span id="more"></span><h2 id="s1-stand-alone-complex"><a class="markdownIt-Anchor" href="#s1-stand-alone-complex"></a> S1: Stand Alone Complex</h2><p>由于TV版单元回太多，这里只讨论总集篇内容</p><img src="/project/cc4f77de/0002.jpg" class="" width="0002"><h3 id="intercepter"><a class="markdownIt-Anchor" href="#intercepter"></a> intercepter</h3><img src="/project/cc4f77de/0004.jpg" class="" width="0004"><p>警员山口察觉到笑面男事件有问题，提前给户草送了信</p><img src="/project/cc4f77de/0005.jpg" class="" width="0005"><p>没见成面，被做掉了</p><img src="/project/cc4f77de/0007.jpg" class="" width="0007"><p>未亡人立功</p><img src="/project/cc4f77de/0009.jpg" class="" width="0009"><p>发现华点</p><img src="/project/cc4f77de/0010.jpg" class="" width="0010"><h3 id="七尾a"><a class="markdownIt-Anchor" href="#七尾a"></a> 七尾A</h3><p>笑面男事件一个模仿者</p><img src="/project/cc4f77de/0012.jpg" class="" width="0012"><p>被摆了一道</p><img src="/project/cc4f77de/0014.jpg" class="" width="0014"><p>被自己人做掉了</p><img src="/project/cc4f77de/0015.jpg" class="" width="0015"><p><strong>模仿者</strong></p><img src="/project/cc4f77de/0016.jpg" class="" width="0016"><img src="/project/cc4f77de/0017.jpg" class="" width="0017"><img src="/project/cc4f77de/0018.jpg" class="" width="0018"><h3 id="团长"><a class="markdownIt-Anchor" href="#团长"></a> 团长</h3><p>户草一开始就被植入了记忆</p><img src="/project/cc4f77de/0019.jpg" class="" width="0019"><p>网瘾少年</p><img src="/project/cc4f77de/0020.jpg" class="" width="0020"><p>团长出现了</p><img src="/project/cc4f77de/0021.jpg" class="" width="0021"><p>团长的自问</p><img src="/project/cc4f77de/0022.jpg" class="" width="0022"><p>团长出手了</p><img src="/project/cc4f77de/0023.jpg" class="" width="0023"><p>户草的记忆</p><img src="/project/cc4f77de/0024.jpg" class="" width="0024"><img src="/project/cc4f77de/0025.jpg" class="" width="0025"><p>团长和少校</p><img src="/project/cc4f77de/0030.jpg" class="" width="0030"><img src="/project/cc4f77de/0031.jpg" class="" width="0031"><h3 id="村井疫苗"><a class="markdownIt-Anchor" href="#村井疫苗"></a> 村井疫苗</h3><img src="/project/cc4f77de/0026.jpg" class="" width="0026"><img src="/project/cc4f77de/0027.jpg" class="" width="0027"><p>为了尊严，少校好帅</p><img src="/project/cc4f77de/0028.jpg" class="" width="0028"><img src="/project/cc4f77de/0029.jpg" class="" width="0029"><h3 id="笑面男"><a class="markdownIt-Anchor" href="#笑面男"></a> 笑面男</h3><img src="/project/cc4f77de/0008.jpg" class="" width="0008"><p>少校好帅</p><img src="/project/cc4f77de/0032.jpg" class="" width="0032"><p><strong>taqikoma你们一定有ghost吧</strong>😢</p><img src="/project/cc4f77de/0033-16570979412695.jpg" class="" width="0033"><img src="/project/cc4f77de/0034.jpg" class="" width="0034"><p>这才是stand alone，我们都是独立的个体</p><img src="/project/cc4f77de/0035.jpg" class="" width="0035"><img src="/project/cc4f77de/0036.jpg" class="" width="0036"><h3 id="总结"><a class="markdownIt-Anchor" href="#总结"></a> 总结</h3><h4 id="quotes"><a class="markdownIt-Anchor" href="#quotes"></a> quotes</h4><p>不成熟的人为了理想高贵地死去，成熟的人会为了理想生存下去。 ——《麦田里的守望者》</p><p>如果自己都说服不了自己，就让自己消失吧。</p><p>你坐着不动，自然会有人来找你 ——多华奈</p><p>你在世界上做的任何事，看来都只不过是把戏吧。 ——沙林杰</p><p>我就是正如大家所见的机械而已。 ——芝加维鲁顿</p><p>我就成了这样的一个媒介，新作一直都没有发行，但存在与否就不断被夸张；总之，基于社会上的限制，最终这个媒介亦被迫要完全消失。——法力克詹森，大泽真幸</p><p>本体不存在的话，根本不可能复制 —stand alone complex</p><p>因为资料可以共享的关系，只有一个可能性是令人聚在一起的—好奇心</p><h4 id="笑脸男的来源上面写的话真是讽刺"><a class="markdownIt-Anchor" href="#笑脸男的来源上面写的话真是讽刺"></a> 笑脸男的来源上面写的话真是讽刺</h4><img src="/project/cc4f77de/Deaf-mutes.jpg" class="" title="img"><h4 id="剧情整理"><a class="markdownIt-Anchor" href="#剧情整理"></a> 剧情整理</h4><p>转自<a href="https://movie.douban.com/review/9594272/">个人记录的剧情</a></p><p>陀古萨在笑脸男调查组的同事察觉上司有些奇怪，明明雨衣滴水却谎称自己加班，打算找陀古萨商量，不料眼中被装入拦截者出车祸而死。</p><p>之后陀古萨经由其妻送出的照片，发现照片是用拦截者拍的。此时拦截者的使用没有经过允许。</p><p>之后县警召开记者会，被人指出其与微型机械制作商可能有不正当关系，会上笑脸男黑了刑事部长，做了暗杀预告。</p><p>六年前的笑脸男事件:，笑脸男公然劫持了微信机械制造商的社长，黑了所有人的电子脑。之后其多次对其他厂商进行勒索，威胁在其商品中加入杀人病毒，厂商股价大幅变动。</p><p>之后，课长怀疑记者会上的闹剧是警视厅自导自演。警视厅最近三个月锁定了一名嫌疑人，七尾a。警视厅打算抓七尾a当成真正的笑脸男。因此九科开始监视七尾a，少佐则去保护警视总监。 七尾周围的四十三名证人记忆被改过。当天，少佐和齐藤博马间的联络出现杂音。巴特一行人抓获七尾，却发现中了七尾的计，他本人不在被监视的地点。此外，七尾没有发犯罪预告，却想以笑脸男的身份名留青史。他向会场发送病毒引起暴动，最后被神秘人杀死。</p><p>杂音原来是病毒的干扰，长官周围的一人发病了。他被制服后，又有人不断试图暗杀，但他们都不是因为病毒，而是认为受到了笑脸男的感召。</p><p>某收容电子脑自闭症患者的收容设施攻击了厚生省，陀古萨奉命潜入调查，发现这里的患者都进行了开发防火墙的特别训练。孩子们中间有个叫团长的很受爱戴。</p><p>塔奇克马被发现逐渐产生了个性，被送入了实验室。</p><p>陀古萨秘密调查院长办公室被发现打倒，他照顾的一个孩子救了他一命，这孩子正是团长，也就是笑脸男。陀古萨后来被救出，悟到笑脸男是很厉害的黑客，电子资料对他不成问题，他要的是纸质资料，因此前往厚生劳动省找资料，发现少了一份接种村井疫苗的名单。 村井疫苗是一种应对电子脑硬化症的疫苗，但是因为和微型机械制造疗法相悖，而长期没有获批。后来终于被认可，也没有公开宣扬。 陀古萨得知向日葵会可能对这份文件感兴趣，赶到向日葵会调查。</p><p>向日葵会持有疫苗接种名单的复制本，复制本显示，中央药理会的今来栖尚也接种了疫苗，但他本人却反对疫苗。此时，强制介入班的人前来追杀向日葵会，陀古萨逃脱，但身受重伤，复制本也被夺走。九科从陀古萨的电子脑记忆中得知了真相，决定展开行动。</p><p>九科赶到今来栖住处，却发现他房子已经被毁。实际上今来栖已经逃出，被笑脸男要求呆在酒店里，但今来栖却偷偷向新美求助。新美又把这个消息告诉了幕后黑手。幕后黑手有海军人脉，派强制介入班穿戴海军研发的机甲去追杀今来栖。后今来栖被击杀，但公安也得到了村井疫苗接种者名单。</p><p>此后九科被介入班追杀。首相为了选举考虑，决定解散公安九科，对幕后黑手选举后再清算，课长将名单交给法院，事件解决。</p><p>笑脸男最后指出，信息共享将导致人丧失个性，保持个性的方法是像塔奇克马那样保持好奇心。</p><h4 id="主线"><a class="markdownIt-Anchor" href="#主线"></a> 主线</h4><p>转自<a href="https://bgm.tv/blog/280218">主线故事梳理（只有剧透b38）</a></p><p>算起来主线其实只有四五个事件😢。</p><p>在背后作恶的人，比各方都更早地东西了人类的本质是复读机b38</p><p>笑脸男事件是本作中所虚构的一起由多方参与的社会事件，其中包含了个人行动、利益团体运作、群体跟风以及有组织犯罪等多种成分。</p><p>事件发生的经济背景是当时电子脑技术的快速发展，政治、经济势力也对这一新兴产业青睐有加，在他们的运作下，电子脑的商用化顺风顺水。但此时阻碍电子脑植入的一大障碍是“电子脑硬化症”。</p><p>“电子脑硬化症”是一种发病率很低，但又无从治疗的绝症，在所有植入电子脑的人身上均可能发生。这样一种“绝症”的存在无疑让公众对植入的安全性打了个问号。就在此时，村井博士利用传统医学方法开发的针对该病症的村井疫苗实验成功。这对于微机电产业来说不是个利好消息——微机械法治疗电子脑硬化症的方法仍然未见成效，这样下去“传统技术胜过了微机电”的印象会给电子脑产业的发展制造很大的舆论屏障。相关利益团体决定抓住村井疫苗作用机制不明的软肋，将这种疗法一棒子打死，同时批准一批微机械疗法治疗电子脑硬化症的方案，以欺瞒的方式营造正面的舆论环境。（2024年还是“大众对安装电子脑接口将信将疑”，6年之后电子脑便已经成为了普遍现象。）</p><p>最初的笑脸男事件就此发生，一位青年了解此事后绑架了Serano微机电公司的社长，希望他能说出微机械疗法对电子脑硬化症没有显著疗效的真相。结果出现了电视机前“笑脸男”用枪指着社长要求其说明真相的场景。</p><p>虽然对大众来讲，最初的笑脸男事件就是一次闹剧，时任厚生省大臣的药岛及其相关势力却从中发现了可乘之机。他们假借“笑脸男”的名义向众多生物微机电企业发出威胁，甚至向他们的产品中注入杀人病毒，搞得一时之间股市一片绿字。主导这一系列威胁的势力靠做空抄底赚了一比，同时也加强了自己对这一热门产业的控制。最初的笑脸男看到这样的结局很绝望，决定闭塞视听，不再出手。</p><p>下一回事件就到了6年之后，2030年。Intercepter在笑脸男搜查本部刑警内部的违规运用被九科揭发，警视厅的说明会上最初的笑脸男再次出山，发出针对警视厅总监的暗杀预告。结果暗杀预告现场当天，真正的笑脸男自己没动手，倒是来了一大群的模仿犯，其中包括警察早就盯上的七尾A。最后七尾A也被疑似药岛势力的人物灭口，此事告一段落。似乎在本事件中，药岛势力原定的脚本就是让七尾A作为“真正的”笑脸男死去，顺利结案，万事大吉，自己在企业威胁中的行为也就不会败露。</p><p>再下一回事件发生在针对电子脑自闭症患者开设的福利设施中。最初的笑脸男1号在这里和一群被送进来的黑客鬼才一同侵入了厚生省的数据库，寻找和当年村井疫苗审批相关的资料，在此处他的行动也逐渐被九课注意到。</p><p>接下来的事件从网络空间转换到现实空间。在入侵厚生省数据库后一无所获的笑脸男认定村井疫苗的关键资料不存在电子副本。他这次入侵了一个清洁工，从厚生省偷出了接种村井疫苗的人士的名单，一旦这个“不存在的药物”的使用被公之于众，6年前的事情也会纸里包不住火。同时他还拉来了当时负责药物审批的厚生省官员来栖晓，希望他来作证揭露当年的真相，手法和当年诱拐濑良野社长很像。结果药岛势力动了真格的，动用暴力阻挠，虽然接种名单是拿到了，但来晓栖最终被灭口。</p><p>药岛势力的动作越来越粗暴，甚至开始采用偷偷搞掉九课成员的方式终止调查，未果。笑脸男1号与素子接触，之后九课也模仿了一次笑脸男，用和6年前几乎一样的方式把濑良野社长拉上贼船，濑良野同意为揭露黑历史作证。</p><p>药岛势力抓住机会，记录下九科队员装扮成笑脸男与濑良野社长接触的画面，一时间把九课打成诱拐社长的元凶，笑脸男的最大嫌疑人。课长和总理商讨妥善解决此事的看法，决定让九科扮黑脸，谁都不得罪的解决此事。结果九课成员玩命逃跑，海自的人白忙一场还搭上好多性命。😢</p><h4 id="ghost-in-the-shell-stand-alone-complex"><a class="markdownIt-Anchor" href="#ghost-in-the-shell-stand-alone-complex"></a> Ghost In The Shell Stand Alone Complex</h4><p>转自<a href="https://bgm.tv/blog/1553">Ghost In The Shell Stand Alone Complex</a></p><h5 id="ghost-in-the-shell"><a class="markdownIt-Anchor" href="#ghost-in-the-shell"></a> Ghost In The Shell</h5><p>行文伊始之所以用《Ghost In The Shell》而并非《攻壳机动队》这个译名是因为感觉这个英文名字更能表达出原作中要传达的深意。Ghost在英文中表示的是灵魂的意思，而Shell在这部作品中可以指肉体的躯壳也就是改造人的义体，亦或是攻壳车（タチコマ），Ghost In The Shell从英文直译来看就是埋藏在躯壳深处的灵魂。<br />提到攻壳的世界观设定当然不得不提十九世纪法国作家维里耶的代表作《未来的夏娃》，动画中也多次直接提到这部作品，虽然笔者没有看过这本科幻小说不过对其设定还是有一定了解的，相信只要是看过《夏娃的时间》的观众都对Android（アンドロイド）的设定有个大致的印象。<br />Ghost In The Shell在此基础上进行了讨论的延伸，人离开了躯壳之后还有灵魂吗？全身义体的改造人也有灵魂吗？Android也有灵魂吗？这些问题从《攻壳》SF的世界观传达到我们灵魂之初就让我们不停的思考。个人很喜欢TV版第一季中和主线无关的小故事，其中很深刻的探讨了这个问题。比如第2话《暴走の証明》讲述了一个程序员肉体死亡后将脑装在战车上回去看父母的故事；第12话《タチコマの家出 映画監督の夢》中电影监督独立存活下来的脑中的电影剧场的故事，在攻壳SF的世界观众肉体只是一种躯壳和束缚，“脑”才是真正Ghost的载体，无论是物理的大脑还是电脑化后的大脑。<br />甚至于对于Android的“大脑”来说也有Ghost，第3话《ささやかな反乱》人与人形机器人（Android）相恋并被Android“背叛”的故事，士郎正宗仿佛要告诉我们Android在进化的过程中也会进行独立（Stand Alone Complex）思考和进化，并最终产生灵魂，这一点在攻壳车（タチコマ）相关的剧情中显露无疑。无论是第一季最后攻壳车自我牺牲去救巴特的行为还是第二季最后坠落AI卫星档核弹的剧情，都无疑表现了其独立人格（Stand Alone Complex）和躯壳下的灵魂（Ghost In The Shell），不管是第一季最后攻壳车的“流泪”还是第二季最后的歌唱都是其具有灵魂的表现。<br />第二季最后英雄想要把难民的Ghost上传到网络上的革命更是把作品中Ghost的概念又上升到了另一种概念，躯壳也好义体也好都只是灵魂（Ghost）的一个载体和媒介，只要能保持独立（Stand Alone Complex）就算没有躯壳灵魂（Ghost）也是依然存在的。于是我们看到了剧场版《INNOCENCE》中素子从卫星上下载了自己的Ghost到人偶上来救巴特的剧情。</p><p><em>We all have Ghost if we Stand Alone Complex whatever it in the shell or out the shell.</em></p><p>笔者用自己的一句英语对Ghost In The Shell理解的概括，不知道语法有没有错误，Ghost才是主体，Shell永远只是客体甚至于在网络中这个客体可以并不实际存在。</p><h5 id="stand-alone-complex"><a class="markdownIt-Anchor" href="#stand-alone-complex"></a> Stand Alone Complex</h5><p>再来谈谈Stand Alone Complex这个概念，相对于Ghost In The Shell笔者对于这个概念的理解就有些模糊了，不过从之前的论述中可以看出Stand Alone Complex是Ghost In The Shell的前提，只有有了独立的人格才能在网络中找到自己的灵魂宿处。这个理论也可以从第二季最后英雄的革命中得以考证。<br />如果说TV版的第一季主要是在论述Ghost In The Shell的话那么第二季讲的更多的就是Stand Alone Complex这个概念，从第二季故事开始的“个别的十一人”开始，当然要区分清楚的是“个别的十一人”并非Stand Alone Complex，从剧情中我们知道他们只是被病毒感染的牺牲者和棋子，“个别”或者说持有非社会主流性的观点或者行为并不等同于Stand Alone Complex。</p><p>那么到底什么是Stand Alone Complex呢？</p><p>对此笔者的观点是独立的思考以及独立的人格才是Stand Alone Complex有且唯一的前提，这也是为什么我说“个别的十一人”不是Stand Alone Complex而其中的英雄是的原因了。剧情中对于Stand Alone Complex的几次正面描写都在于两季动画的结尾，让我们回忆一下两次的剧情都有什么相同点？公安9课的课长被孤立9课的成员们都按照自行的判断来进行行动，记得第一季的这段剧情中有明确提到Stand Alone Complex这个词，没记错的话也说了这是公安9课的行事标准。<br />另一段正面讲述Stand Alone Complex的剧情又不得不提到攻壳世界观中特有的产物攻壳车了，在第二季中我们了解到攻壳车从统一的同步信息已经进化到了彼此间各自有各自不同的性格分歧，各自的思维方式也开始产生了不同。而对于攻壳车来说Stand Alone Complex既是彼此间的性格“独立”也是形成Ghost中思维的独立，从最后攻壳车背叛素子的命令可以看出攻壳车已经Stand Alone Complex并产生Ghost了。<br />提到机器人SF作品到这里还是不得不再次提一下阿西莫夫的“机器人三大定律”，让我们来回顾一下到底是哪三条：</p><p><em>第一法则<br />机器人不得伤害人类。<br />第二法则<br />除非违背第一法则，机器人必须服从人类的命令。<br />第三法则<br />在不违背第一及第二法则下，机器人必须保护自己。</em></p><p>虽然攻壳没有说明是严格遵循机器人三大定律的作品，但是最后攻壳车无视素子的命令还是让人有些情理之中意料之外。注意笔者在这里特意用了“情理之中”这个词，对于机器人也有情理吗？机器人也会流泪吗？<br />会。<br />因为他们在独立进化的过程中已经产生灵魂了。<br />这个时候她们（注意用的并非它们）已经不仅仅是Android了。</p><p>笔止于此，笔者还是沉浸在Ghost In The Shell的网络浩瀚海洋中无法自拔，还有一个多月3D剧场版就要在日本上映，最后还是用这句话来结束这次的探讨吧。<br /><strong>We all have Ghost if we Stand Alone Complex whatever it in the shell or out the shell.</strong></p><h2 id="s2-sac-2nd-gig"><a class="markdownIt-Anchor" href="#s2-sac-2nd-gig"></a> S2: S.A.C. 2nd GIG</h2><h3 id="e01"><a class="markdownIt-Anchor" href="#e01"></a> E01</h3><p>犯罪集团占领中国大使馆</p><p>”个别的11人“</p><p>犯罪声明：关闭难民区</p><p>少校好像变大了</p><img src="/project/cc4f77de/0001.jpg" class="" width="0001"><p>没有档案九课不能重建</p><p>社会舆论：日本为了脸面建立难民区，向人民增加税率</p><p>少校会笑面男的技能了</p><p>警察恐怖分子交火，被俘虏一人，一小时后政府不发表声明就开始杀人质</p><p>荒卷主动承担责任开始行动</p><p>少校控制一个人做掉四个</p><p>传统艺能</p><img src="/project/cc4f77de/0003-16571807944401.jpg" class="" width="0003"><p>“个别”是什么</p><p>帅死了</p><img src="/project/cc4f77de/0004-16571808591092.jpg" class="" width="0004"><p>立功后九课重建</p><p>taqikoma装的好像，吓死了</p><img src="/project/cc4f77de/0005-16571809907103.jpg" class="" width="0005">]]></content>
+    <content type="html"><![CDATA[<img src="/project/cc4f77de/0003.jpg" class="" width="0003"><h2 id="序"><a class="markdownIt-Anchor" href="#序"></a> 序</h2><p>神作，听过名字后一直想看，之前每天两集把SAC看完了，博客用以记录观看记录吧</p><span id="more"></span><h2 id="s1-stand-alone-complex"><a class="markdownIt-Anchor" href="#s1-stand-alone-complex"></a> S1: Stand Alone Complex</h2><p>由于TV版单元回太多，这里只讨论总集篇内容</p><img src="/project/cc4f77de/0002.jpg" class="" width="0002"><h3 id="intercepter"><a class="markdownIt-Anchor" href="#intercepter"></a> intercepter</h3><img src="/project/cc4f77de/0004.jpg" class="" width="0004"><p>警员山口察觉到笑面男事件有问题，提前给户草送了信</p><img src="/project/cc4f77de/0005.jpg" class="" width="0005"><p>没见成面，被做掉了</p><img src="/project/cc4f77de/0007.jpg" class="" width="0007"><p>未亡人立功</p><img src="/project/cc4f77de/0009.jpg" class="" width="0009"><p>发现华点</p><img src="/project/cc4f77de/0010.jpg" class="" width="0010"><h3 id="七尾a"><a class="markdownIt-Anchor" href="#七尾a"></a> 七尾A</h3><p>笑面男事件一个模仿者</p><img src="/project/cc4f77de/0012.jpg" class="" width="0012"><p>被摆了一道</p><img src="/project/cc4f77de/0014.jpg" class="" width="0014"><p>被自己人做掉了</p><img src="/project/cc4f77de/0015.jpg" class="" width="0015"><p><strong>模仿者</strong></p><img src="/project/cc4f77de/0016.jpg" class="" width="0016"><img src="/project/cc4f77de/0017.jpg" class="" width="0017"><img src="/project/cc4f77de/0018.jpg" class="" width="0018"><h3 id="团长"><a class="markdownIt-Anchor" href="#团长"></a> 团长</h3><p>户草一开始就被植入了记忆</p><img src="/project/cc4f77de/0019.jpg" class="" width="0019"><p>网瘾少年</p><img src="/project/cc4f77de/0020.jpg" class="" width="0020"><p>团长出现了</p><img src="/project/cc4f77de/0021.jpg" class="" width="0021"><p>团长的自问</p><img src="/project/cc4f77de/0022.jpg" class="" width="0022"><p>团长出手了</p><img src="/project/cc4f77de/0023.jpg" class="" width="0023"><p>户草的记忆</p><img src="/project/cc4f77de/0024.jpg" class="" width="0024"><img src="/project/cc4f77de/0025.jpg" class="" width="0025"><p>团长和少校</p><img src="/project/cc4f77de/0030.jpg" class="" width="0030"><img src="/project/cc4f77de/0031.jpg" class="" width="0031"><h3 id="村井疫苗"><a class="markdownIt-Anchor" href="#村井疫苗"></a> 村井疫苗</h3><img src="/project/cc4f77de/0026.jpg" class="" width="0026"><img src="/project/cc4f77de/0027.jpg" class="" width="0027"><p>为了尊严，少校好帅</p><img src="/project/cc4f77de/0028.jpg" class="" width="0028"><img src="/project/cc4f77de/0029.jpg" class="" width="0029"><h3 id="笑面男"><a class="markdownIt-Anchor" href="#笑面男"></a> 笑面男</h3><img src="/project/cc4f77de/0008.jpg" class="" width="0008"><p>少校好帅</p><img src="/project/cc4f77de/0032.jpg" class="" width="0032"><p><strong>taqikoma你们一定有ghost吧</strong>😢</p><img src="/project/cc4f77de/0033-16570979412695.jpg" class="" width="0033"><img src="/project/cc4f77de/0034.jpg" class="" width="0034"><p>这才是stand alone，我们都是独立的个体</p><img src="/project/cc4f77de/0035.jpg" class="" width="0035"><img src="/project/cc4f77de/0036.jpg" class="" width="0036"><h3 id="总结"><a class="markdownIt-Anchor" href="#总结"></a> 总结</h3><h4 id="quotes"><a class="markdownIt-Anchor" href="#quotes"></a> quotes</h4><p>不成熟的人为了理想高贵地死去，成熟的人会为了理想生存下去。 ——《麦田里的守望者》</p><p>如果自己都说服不了自己，就让自己消失吧。</p><p>你坐着不动，自然会有人来找你 ——多华奈</p><p>你在世界上做的任何事，看来都只不过是把戏吧。 ——沙林杰</p><p>我就是正如大家所见的机械而已。 ——芝加维鲁顿</p><p>我就成了这样的一个媒介，新作一直都没有发行，但存在与否就不断被夸张；总之，基于社会上的限制，最终这个媒介亦被迫要完全消失。——法力克詹森，大泽真幸</p><p>本体不存在的话，根本不可能复制 —stand alone complex</p><p>因为资料可以共享的关系，只有一个可能性是令人聚在一起的—好奇心</p><h4 id="笑脸男的来源上面写的话真是讽刺"><a class="markdownIt-Anchor" href="#笑脸男的来源上面写的话真是讽刺"></a> 笑脸男的来源上面写的话真是讽刺</h4><img src="/project/cc4f77de/Deaf-mutes.jpg" class="" title="img"><h4 id="剧情整理"><a class="markdownIt-Anchor" href="#剧情整理"></a> 剧情整理</h4><p>转自<a href="https://movie.douban.com/review/9594272/">个人记录的剧情</a></p><p>陀古萨在笑脸男调查组的同事察觉上司有些奇怪，明明雨衣滴水却谎称自己加班，打算找陀古萨商量，不料眼中被装入拦截者出车祸而死。</p><p>之后陀古萨经由其妻送出的照片，发现照片是用拦截者拍的。此时拦截者的使用没有经过允许。</p><p>之后县警召开记者会，被人指出其与微型机械制作商可能有不正当关系，会上笑脸男黑了刑事部长，做了暗杀预告。</p><p>六年前的笑脸男事件:，笑脸男公然劫持了微信机械制造商的社长，黑了所有人的电子脑。之后其多次对其他厂商进行勒索，威胁在其商品中加入杀人病毒，厂商股价大幅变动。</p><p>之后，课长怀疑记者会上的闹剧是警视厅自导自演。警视厅最近三个月锁定了一名嫌疑人，七尾a。警视厅打算抓七尾a当成真正的笑脸男。因此九科开始监视七尾a，少佐则去保护警视总监。 七尾周围的四十三名证人记忆被改过。当天，少佐和齐藤博马间的联络出现杂音。巴特一行人抓获七尾，却发现中了七尾的计，他本人不在被监视的地点。此外，七尾没有发犯罪预告，却想以笑脸男的身份名留青史。他向会场发送病毒引起暴动，最后被神秘人杀死。</p><p>杂音原来是病毒的干扰，长官周围的一人发病了。他被制服后，又有人不断试图暗杀，但他们都不是因为病毒，而是认为受到了笑脸男的感召。</p><p>某收容电子脑自闭症患者的收容设施攻击了厚生省，陀古萨奉命潜入调查，发现这里的患者都进行了开发防火墙的特别训练。孩子们中间有个叫团长的很受爱戴。</p><p>塔奇克马被发现逐渐产生了个性，被送入了实验室。</p><p>陀古萨秘密调查院长办公室被发现打倒，他照顾的一个孩子救了他一命，这孩子正是团长，也就是笑脸男。陀古萨后来被救出，悟到笑脸男是很厉害的黑客，电子资料对他不成问题，他要的是纸质资料，因此前往厚生劳动省找资料，发现少了一份接种村井疫苗的名单。 村井疫苗是一种应对电子脑硬化症的疫苗，但是因为和微型机械制造疗法相悖，而长期没有获批。后来终于被认可，也没有公开宣扬。 陀古萨得知向日葵会可能对这份文件感兴趣，赶到向日葵会调查。</p><p>向日葵会持有疫苗接种名单的复制本，复制本显示，中央药理会的今来栖尚也接种了疫苗，但他本人却反对疫苗。此时，强制介入班的人前来追杀向日葵会，陀古萨逃脱，但身受重伤，复制本也被夺走。九科从陀古萨的电子脑记忆中得知了真相，决定展开行动。</p><p>九科赶到今来栖住处，却发现他房子已经被毁。实际上今来栖已经逃出，被笑脸男要求呆在酒店里，但今来栖却偷偷向新美求助。新美又把这个消息告诉了幕后黑手。幕后黑手有海军人脉，派强制介入班穿戴海军研发的机甲去追杀今来栖。后今来栖被击杀，但公安也得到了村井疫苗接种者名单。</p><p>此后九科被介入班追杀。首相为了选举考虑，决定解散公安九科，对幕后黑手选举后再清算，课长将名单交给法院，事件解决。</p><p>笑脸男最后指出，信息共享将导致人丧失个性，保持个性的方法是像塔奇克马那样保持好奇心。</p><h4 id="主线"><a class="markdownIt-Anchor" href="#主线"></a> 主线</h4><p>转自<a href="https://bgm.tv/blog/280218">主线故事梳理（只有剧透b38）</a></p><p>算起来主线其实只有四五个事件😢。</p><p>在背后作恶的人，比各方都更早地东西了人类的本质是复读机b38</p><p>笑脸男事件是本作中所虚构的一起由多方参与的社会事件，其中包含了个人行动、利益团体运作、群体跟风以及有组织犯罪等多种成分。</p><p>事件发生的经济背景是当时电子脑技术的快速发展，政治、经济势力也对这一新兴产业青睐有加，在他们的运作下，电子脑的商用化顺风顺水。但此时阻碍电子脑植入的一大障碍是“电子脑硬化症”。</p><p>“电子脑硬化症”是一种发病率很低，但又无从治疗的绝症，在所有植入电子脑的人身上均可能发生。这样一种“绝症”的存在无疑让公众对植入的安全性打了个问号。就在此时，村井博士利用传统医学方法开发的针对该病症的村井疫苗实验成功。这对于微机电产业来说不是个利好消息——微机械法治疗电子脑硬化症的方法仍然未见成效，这样下去“传统技术胜过了微机电”的印象会给电子脑产业的发展制造很大的舆论屏障。相关利益团体决定抓住村井疫苗作用机制不明的软肋，将这种疗法一棒子打死，同时批准一批微机械疗法治疗电子脑硬化症的方案，以欺瞒的方式营造正面的舆论环境。（2024年还是“大众对安装电子脑接口将信将疑”，6年之后电子脑便已经成为了普遍现象。）</p><p>最初的笑脸男事件就此发生，一位青年了解此事后绑架了Serano微机电公司的社长，希望他能说出微机械疗法对电子脑硬化症没有显著疗效的真相。结果出现了电视机前“笑脸男”用枪指着社长要求其说明真相的场景。</p><p>虽然对大众来讲，最初的笑脸男事件就是一次闹剧，时任厚生省大臣的药岛及其相关势力却从中发现了可乘之机。他们假借“笑脸男”的名义向众多生物微机电企业发出威胁，甚至向他们的产品中注入杀人病毒，搞得一时之间股市一片绿字。主导这一系列威胁的势力靠做空抄底赚了一比，同时也加强了自己对这一热门产业的控制。最初的笑脸男看到这样的结局很绝望，决定闭塞视听，不再出手。</p><p>下一回事件就到了6年之后，2030年。Intercepter在笑脸男搜查本部刑警内部的违规运用被九科揭发，警视厅的说明会上最初的笑脸男再次出山，发出针对警视厅总监的暗杀预告。结果暗杀预告现场当天，真正的笑脸男自己没动手，倒是来了一大群的模仿犯，其中包括警察早就盯上的七尾A。最后七尾A也被疑似药岛势力的人物灭口，此事告一段落。似乎在本事件中，药岛势力原定的脚本就是让七尾A作为“真正的”笑脸男死去，顺利结案，万事大吉，自己在企业威胁中的行为也就不会败露。</p><p>再下一回事件发生在针对电子脑自闭症患者开设的福利设施中。最初的笑脸男1号在这里和一群被送进来的黑客鬼才一同侵入了厚生省的数据库，寻找和当年村井疫苗审批相关的资料，在此处他的行动也逐渐被九课注意到。</p><p>接下来的事件从网络空间转换到现实空间。在入侵厚生省数据库后一无所获的笑脸男认定村井疫苗的关键资料不存在电子副本。他这次入侵了一个清洁工，从厚生省偷出了接种村井疫苗的人士的名单，一旦这个“不存在的药物”的使用被公之于众，6年前的事情也会纸里包不住火。同时他还拉来了当时负责药物审批的厚生省官员来栖晓，希望他来作证揭露当年的真相，手法和当年诱拐濑良野社长很像。结果药岛势力动了真格的，动用暴力阻挠，虽然接种名单是拿到了，但来晓栖最终被灭口。</p><p>药岛势力的动作越来越粗暴，甚至开始采用偷偷搞掉九课成员的方式终止调查，未果。笑脸男1号与素子接触，之后九课也模仿了一次笑脸男，用和6年前几乎一样的方式把濑良野社长拉上贼船，濑良野同意为揭露黑历史作证。</p><p>药岛势力抓住机会，记录下九科队员装扮成笑脸男与濑良野社长接触的画面，一时间把九课打成诱拐社长的元凶，笑脸男的最大嫌疑人。课长和总理商讨妥善解决此事的看法，决定让九科扮黑脸，谁都不得罪的解决此事。结果九课成员玩命逃跑，海自的人白忙一场还搭上好多性命。😢</p><h4 id="ghost-in-the-shell-stand-alone-complex"><a class="markdownIt-Anchor" href="#ghost-in-the-shell-stand-alone-complex"></a> Ghost In The Shell Stand Alone Complex</h4><p>转自<a href="https://bgm.tv/blog/1553">Ghost In The Shell Stand Alone Complex</a></p><h5 id="ghost-in-the-shell"><a class="markdownIt-Anchor" href="#ghost-in-the-shell"></a> Ghost In The Shell</h5><p>行文伊始之所以用《Ghost In The Shell》而并非《攻壳机动队》这个译名是因为感觉这个英文名字更能表达出原作中要传达的深意。Ghost在英文中表示的是灵魂的意思，而Shell在这部作品中可以指肉体的躯壳也就是改造人的义体，亦或是攻壳车（タチコマ），Ghost In The Shell从英文直译来看就是埋藏在躯壳深处的灵魂。<br />提到攻壳的世界观设定当然不得不提十九世纪法国作家维里耶的代表作《未来的夏娃》，动画中也多次直接提到这部作品，虽然笔者没有看过这本科幻小说不过对其设定还是有一定了解的，相信只要是看过《夏娃的时间》的观众都对Android（アンドロイド）的设定有个大致的印象。<br />Ghost In The Shell在此基础上进行了讨论的延伸，人离开了躯壳之后还有灵魂吗？全身义体的改造人也有灵魂吗？Android也有灵魂吗？这些问题从《攻壳》SF的世界观传达到我们灵魂之初就让我们不停的思考。个人很喜欢TV版第一季中和主线无关的小故事，其中很深刻的探讨了这个问题。比如第2话《暴走の証明》讲述了一个程序员肉体死亡后将脑装在战车上回去看父母的故事；第12话《タチコマの家出 映画監督の夢》中电影监督独立存活下来的脑中的电影剧场的故事，在攻壳SF的世界观众肉体只是一种躯壳和束缚，“脑”才是真正Ghost的载体，无论是物理的大脑还是电脑化后的大脑。<br />甚至于对于Android的“大脑”来说也有Ghost，第3话《ささやかな反乱》人与人形机器人（Android）相恋并被Android“背叛”的故事，士郎正宗仿佛要告诉我们Android在进化的过程中也会进行独立（Stand Alone Complex）思考和进化，并最终产生灵魂，这一点在攻壳车（タチコマ）相关的剧情中显露无疑。无论是第一季最后攻壳车自我牺牲去救巴特的行为还是第二季最后坠落AI卫星档核弹的剧情，都无疑表现了其独立人格（Stand Alone Complex）和躯壳下的灵魂（Ghost In The Shell），不管是第一季最后攻壳车的“流泪”还是第二季最后的歌唱都是其具有灵魂的表现。<br />第二季最后英雄想要把难民的Ghost上传到网络上的革命更是把作品中Ghost的概念又上升到了另一种概念，躯壳也好义体也好都只是灵魂（Ghost）的一个载体和媒介，只要能保持独立（Stand Alone Complex）就算没有躯壳灵魂（Ghost）也是依然存在的。于是我们看到了剧场版《INNOCENCE》中素子从卫星上下载了自己的Ghost到人偶上来救巴特的剧情。</p><p><em>We all have Ghost if we Stand Alone Complex whatever it in the shell or out the shell.</em></p><p>笔者用自己的一句英语对Ghost In The Shell理解的概括，不知道语法有没有错误，Ghost才是主体，Shell永远只是客体甚至于在网络中这个客体可以并不实际存在。</p><h5 id="stand-alone-complex"><a class="markdownIt-Anchor" href="#stand-alone-complex"></a> Stand Alone Complex</h5><p>再来谈谈Stand Alone Complex这个概念，相对于Ghost In The Shell笔者对于这个概念的理解就有些模糊了，不过从之前的论述中可以看出Stand Alone Complex是Ghost In The Shell的前提，只有有了独立的人格才能在网络中找到自己的灵魂宿处。这个理论也可以从第二季最后英雄的革命中得以考证。<br />如果说TV版的第一季主要是在论述Ghost In The Shell的话那么第二季讲的更多的就是Stand Alone Complex这个概念，从第二季故事开始的“个别的十一人”开始，当然要区分清楚的是“个别的十一人”并非Stand Alone Complex，从剧情中我们知道他们只是被病毒感染的牺牲者和棋子，“个别”或者说持有非社会主流性的观点或者行为并不等同于Stand Alone Complex。</p><p>那么到底什么是Stand Alone Complex呢？</p><p>对此笔者的观点是独立的思考以及独立的人格才是Stand Alone Complex有且唯一的前提，这也是为什么我说“个别的十一人”不是Stand Alone Complex而其中的英雄是的原因了。剧情中对于Stand Alone Complex的几次正面描写都在于两季动画的结尾，让我们回忆一下两次的剧情都有什么相同点？公安9课的课长被孤立9课的成员们都按照自行的判断来进行行动，记得第一季的这段剧情中有明确提到Stand Alone Complex这个词，没记错的话也说了这是公安9课的行事标准。<br />另一段正面讲述Stand Alone Complex的剧情又不得不提到攻壳世界观中特有的产物攻壳车了，在第二季中我们了解到攻壳车从统一的同步信息已经进化到了彼此间各自有各自不同的性格分歧，各自的思维方式也开始产生了不同。而对于攻壳车来说Stand Alone Complex既是彼此间的性格“独立”也是形成Ghost中思维的独立，从最后攻壳车背叛素子的命令可以看出攻壳车已经Stand Alone Complex并产生Ghost了。<br />提到机器人SF作品到这里还是不得不再次提一下阿西莫夫的“机器人三大定律”，让我们来回顾一下到底是哪三条：</p><p><em>第一法则<br />机器人不得伤害人类。<br />第二法则<br />除非违背第一法则，机器人必须服从人类的命令。<br />第三法则<br />在不违背第一及第二法则下，机器人必须保护自己。</em></p><p>虽然攻壳没有说明是严格遵循机器人三大定律的作品，但是最后攻壳车无视素子的命令还是让人有些情理之中意料之外。注意笔者在这里特意用了“情理之中”这个词，对于机器人也有情理吗？机器人也会流泪吗？<br />会。<br />因为他们在独立进化的过程中已经产生灵魂了。<br />这个时候她们（注意用的并非它们）已经不仅仅是Android了。</p><p>笔止于此，笔者还是沉浸在Ghost In The Shell的网络浩瀚海洋中无法自拔，还有一个多月3D剧场版就要在日本上映，最后还是用这句话来结束这次的探讨吧。<br /><strong>We all have Ghost if we Stand Alone Complex whatever it in the shell or out the shell.</strong></p><h2 id="s2-sac-2nd-gig"><a class="markdownIt-Anchor" href="#s2-sac-2nd-gig"></a> S2: S.A.C. 2nd GIG</h2><h3 id="简介"><a class="markdownIt-Anchor" href="#简介"></a> 简介</h3><img src="/project/cc4f77de/p2242313763.webp" class="" title="img"><p>这个世界距离我们并不遥远，你把它看作是现代社会的镜子亦为不可。<br />也许：无论人类怎样发展，人性是不会改变的，即使容纳这渺小人性的外壳换作了机器身体亦是一样。<br />无论怎样，在一个充斥着改装身体的社会里，人类的欲望得以被延续且发扬光大，由此相关的犯罪也应运而生。<br />由荒卷所领导的特务组织：公安9课，其实就可以算是日本社会的清洁剂。</p><h3 id="分集简评"><a class="markdownIt-Anchor" href="#分集简评"></a> 分集简评</h3><h4 id="e01-再起動-reembody"><a class="markdownIt-Anchor" href="#e01-再起動-reembody"></a> E01 <a href="https://bgm.tv/ep/3354">再起動 REEMBODY</a></h4><p>犯罪集团占领中国大使馆</p><p>”个别的11人“</p><p>犯罪声明：关闭难民区</p><p>少校好像变大了</p><img src="/project/cc4f77de/0001.jpg" class="" width="0001"><img src="/project/cc4f77de/7344b1c1gy1feoya8hqiwj21hc0u0k8i.jpg" class="" title="img"><p>没有档案九课不能重建</p><p>社会舆论：日本为了脸面建立难民区，向人民增加税率</p><p>少校会笑面男的技能了</p><p>警察恐怖分子交火，被俘虏一人，一小时后政府不发表声明就开始杀人质</p><p>荒卷主动承担责任开始行动</p><p>少校控制一个人做掉四个</p><p>传统艺能</p><img src="/project/cc4f77de/0003-16571807944401.jpg" class="" width="0003"><p>“个别”是什么</p><p>帅死了</p><img src="/project/cc4f77de/0004-16571808591092.jpg" class="" width="0004"><p>立功后九课重建</p><p>taqikoma装的好像，吓死了</p><img src="/project/cc4f77de/0005-16571809907103.jpg" class="" width="0005"><p>开篇交代难民问题背景，日本战后为恢复经济而收容难民，但现在时代变了，政府也换成了保守派。政府即将废除难民福利政策，但又不能被民众认为是在向恐怖分子低头，于是靠九课秘密攻关。</p><h4 id="e02-飽食の僕-night-cruise"><a class="markdownIt-Anchor" href="#e02-飽食の僕-night-cruise"></a> E02 <a href="https://bgm.tv/ep/3355">飽食の僕 NIGHT CRUISE</a></h4><p>饱食终日的我 dividual episodes</p><p>作为义体化试验场的战争，无作为的媒体</p><p>reset the world</p><p>这是什么形态</p><img src="/project/cc4f77de/0006-16571829276525.jpg" class="" width="0006"><p>妄想症？</p><p>生活在自己的真实之中</p><p>“他只是对现实抱着一点希望和焦躁的不特定多数人中的一个。对真相无知到可悲的无产阶级。”我以为自己手里握有的致命真相，却也脆弱的可怜。</p><p>终日饱食的我，这名起的也绝了，这是狠狠抽了多少人的脸</p><p>一层一层揭开其空想和自我陶醉的真相，还与真正付之行动的同事做对比，神回</p><h4 id="e03周六夜晚与周日早晨-cash-eye"><a class="markdownIt-Anchor" href="#e03周六夜晚与周日早晨-cash-eye"></a> E03：周六夜晚与周日早晨 CASH EYE</h4><p>dividual episodes</p><p>cash eye 少校？</p><p>政商界大佬聚会</p><p>今日份少校</p><img src="/project/cc4f77de/image-20220708155526197.png" class="" title="image-20220708155526197"><p>这是什么银趴嘛，大人物们奇怪的xp</p><img src="/project/cc4f77de/0006-16572670204314.jpg" class="" width="0006"><p>九课在做什么间谍活动吗，获得某会长的网膜电子脑纹</p><p>果然cash eye是少校</p><p>但是为什么戴着眼罩</p><p>灵魂锁好高科技,虚拟影像</p><p>九课钓鱼，处理第一季后事</p><img src="/project/cc4f77de/0007-16572676937655.jpg" class="" width="0007"><h4 id="e04天敵-natural-enemy"><a class="markdownIt-Anchor" href="#e04天敵-natural-enemy"></a> E04：<a href="https://bgm.tv/ep/3357">天敵 NATURAL ENEMY</a></h4><p>dual episodes</p><p>难民区，思考战车，错乱</p><p>驾驶员有些问题？怎么就西内了</p><p>思考战机，吓。飞机自己跑了</p><p>可怕的脸</p><img src="/project/cc4f77de/0008-16572685033007.jpg" class="" width="0008"><p>你肚子在哪里啊hhh</p><img src="/project/cc4f77de/0010-16572686894488.jpg" class="" width="0010"><p>黑客帝国既视感，手拉直升机的变态</p><img src="/project/cc4f77de/0011-16572690491539.jpg" class="" width="0011"><p>心脏病飞行员，但是去过他家的两个黑衣人呢，放的特别的药；扔石头的小孩</p><p>一场大型犯罪正在萌芽。“11”架飞机</p>]]></content>
     
     
     <summary type="html">&lt;img src=&quot;/project/cc4f77de/0003.jpg&quot; class=&quot;&quot; width=&quot;0003&quot;&gt;
@@ -82,21 +86,21 @@
     
     
     
-    <category term="番剧" scheme="https://wty2333.gitee.io/categories/%E7%95%AA%E5%89%A7/"/>
+    <category term="番剧" scheme="https://wty2333.github.io/categories/%E7%95%AA%E5%89%A7/"/>
     
     
-    <category term="番剧" scheme="https://wty2333.gitee.io/tags/%E7%95%AA%E5%89%A7/"/>
+    <category term="番剧" scheme="https://wty2333.github.io/tags/%E7%95%AA%E5%89%A7/"/>
     
-    <category term="攻壳机动队" scheme="https://wty2333.gitee.io/tags/%E6%94%BB%E5%A3%B3%E6%9C%BA%E5%8A%A8%E9%98%9F/"/>
+    <category term="攻壳机动队" scheme="https://wty2333.github.io/tags/%E6%94%BB%E5%A3%B3%E6%9C%BA%E5%8A%A8%E9%98%9F/"/>
     
-    <category term="科幻" scheme="https://wty2333.gitee.io/tags/%E7%A7%91%E5%B9%BB/"/>
+    <category term="科幻" scheme="https://wty2333.github.io/tags/%E7%A7%91%E5%B9%BB/"/>
     
   </entry>
   
   <entry>
     <title>风骚律师</title>
-    <link href="https://wty2333.gitee.io/project/6b6acffc.html"/>
-    <id>https://wty2333.gitee.io/project/6b6acffc.html</id>
+    <link href="https://wty2333.github.io/project/6b6acffc.html"/>
+    <id>https://wty2333.github.io/project/6b6acffc.html</id>
     <published>2022-07-06T05:44:05.000Z</published>
     <updated>2022-07-06T06:24:47.805Z</updated>
     
@@ -107,19 +111,19 @@
     
     
     
-    <category term="剧" scheme="https://wty2333.gitee.io/categories/%E5%89%A7/"/>
+    <category term="剧" scheme="https://wty2333.github.io/categories/%E5%89%A7/"/>
     
     
-    <category term="美剧" scheme="https://wty2333.gitee.io/tags/%E7%BE%8E%E5%89%A7/"/>
+    <category term="美剧" scheme="https://wty2333.github.io/tags/%E7%BE%8E%E5%89%A7/"/>
     
-    <category term="风骚律师" scheme="https://wty2333.gitee.io/tags/%E9%A3%8E%E9%AA%9A%E5%BE%8B%E5%B8%88/"/>
+    <category term="风骚律师" scheme="https://wty2333.github.io/tags/%E9%A3%8E%E9%AA%9A%E5%BE%8B%E5%B8%88/"/>
     
   </entry>
   
   <entry>
     <title>2021秋《逻辑·推理·证明》第1次作业</title>
-    <link href="https://wty2333.gitee.io/project/5004c381.html"/>
-    <id>https://wty2333.gitee.io/project/5004c381.html</id>
+    <link href="https://wty2333.github.io/project/5004c381.html"/>
+    <id>https://wty2333.github.io/project/5004c381.html</id>
     <published>2022-07-06T03:05:09.000Z</published>
     <updated>2022-07-07T03:15:01.395Z</updated>
     
@@ -152,21 +156,21 @@
     
     
     
-    <category term="ECNU" scheme="https://wty2333.gitee.io/categories/ECNU/"/>
+    <category term="ECNU" scheme="https://wty2333.github.io/categories/ECNU/"/>
     
-    <category term="逻辑推理证明" scheme="https://wty2333.gitee.io/categories/ECNU/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
+    <category term="逻辑推理证明" scheme="https://wty2333.github.io/categories/ECNU/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
     
     
-    <category term="ECNU" scheme="https://wty2333.gitee.io/tags/ECNU/"/>
+    <category term="ECNU" scheme="https://wty2333.github.io/tags/ECNU/"/>
     
-    <category term="逻辑推理证明" scheme="https://wty2333.gitee.io/tags/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
+    <category term="逻辑推理证明" scheme="https://wty2333.github.io/tags/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
     
   </entry>
   
   <entry>
     <title>2021秋《逻辑·推理·证明》第3次作业</title>
-    <link href="https://wty2333.gitee.io/project/54f113bc.html"/>
-    <id>https://wty2333.gitee.io/project/54f113bc.html</id>
+    <link href="https://wty2333.github.io/project/54f113bc.html"/>
+    <id>https://wty2333.github.io/project/54f113bc.html</id>
     <published>2022-07-06T03:05:09.000Z</published>
     <updated>2022-07-07T03:14:53.027Z</updated>
     
@@ -199,21 +203,21 @@
     
     
     
-    <category term="ECNU" scheme="https://wty2333.gitee.io/categories/ECNU/"/>
+    <category term="ECNU" scheme="https://wty2333.github.io/categories/ECNU/"/>
     
-    <category term="逻辑推理证明" scheme="https://wty2333.gitee.io/categories/ECNU/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
+    <category term="逻辑推理证明" scheme="https://wty2333.github.io/categories/ECNU/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
     
     
-    <category term="ECNU" scheme="https://wty2333.gitee.io/tags/ECNU/"/>
+    <category term="ECNU" scheme="https://wty2333.github.io/tags/ECNU/"/>
     
-    <category term="逻辑推理证明" scheme="https://wty2333.gitee.io/tags/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
+    <category term="逻辑推理证明" scheme="https://wty2333.github.io/tags/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
     
   </entry>
   
   <entry>
     <title>2021秋《逻辑·推理·证明》第9、10次作业</title>
-    <link href="https://wty2333.gitee.io/project/55b5069b.html"/>
-    <id>https://wty2333.gitee.io/project/55b5069b.html</id>
+    <link href="https://wty2333.github.io/project/55b5069b.html"/>
+    <id>https://wty2333.github.io/project/55b5069b.html</id>
     <published>2022-07-06T03:05:09.000Z</published>
     <updated>2022-07-07T03:14:47.701Z</updated>
     
@@ -246,21 +250,21 @@
     
     
     
-    <category term="ECNU" scheme="https://wty2333.gitee.io/categories/ECNU/"/>
+    <category term="ECNU" scheme="https://wty2333.github.io/categories/ECNU/"/>
     
-    <category term="逻辑推理证明" scheme="https://wty2333.gitee.io/categories/ECNU/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
+    <category term="逻辑推理证明" scheme="https://wty2333.github.io/categories/ECNU/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
     
     
-    <category term="ECNU" scheme="https://wty2333.gitee.io/tags/ECNU/"/>
+    <category term="ECNU" scheme="https://wty2333.github.io/tags/ECNU/"/>
     
-    <category term="逻辑推理证明" scheme="https://wty2333.gitee.io/tags/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
+    <category term="逻辑推理证明" scheme="https://wty2333.github.io/tags/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
     
   </entry>
   
   <entry>
     <title>2021秋《逻辑·推理·证明》第2次作业</title>
-    <link href="https://wty2333.gitee.io/project/bb337882.html"/>
-    <id>https://wty2333.gitee.io/project/bb337882.html</id>
+    <link href="https://wty2333.github.io/project/bb337882.html"/>
+    <id>https://wty2333.github.io/project/bb337882.html</id>
     <published>2022-07-06T03:05:09.000Z</published>
     <updated>2022-07-07T03:14:45.099Z</updated>
     
@@ -293,21 +297,21 @@
     
     
     
-    <category term="ECNU" scheme="https://wty2333.gitee.io/categories/ECNU/"/>
+    <category term="ECNU" scheme="https://wty2333.github.io/categories/ECNU/"/>
     
-    <category term="逻辑推理证明" scheme="https://wty2333.gitee.io/categories/ECNU/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
+    <category term="逻辑推理证明" scheme="https://wty2333.github.io/categories/ECNU/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
     
     
-    <category term="ECNU" scheme="https://wty2333.gitee.io/tags/ECNU/"/>
+    <category term="ECNU" scheme="https://wty2333.github.io/tags/ECNU/"/>
     
-    <category term="逻辑推理证明" scheme="https://wty2333.gitee.io/tags/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
+    <category term="逻辑推理证明" scheme="https://wty2333.github.io/tags/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
     
   </entry>
   
   <entry>
     <title>2021秋《逻辑·推理·证明》第8次作业</title>
-    <link href="https://wty2333.gitee.io/project/ac11e84b.html"/>
-    <id>https://wty2333.gitee.io/project/ac11e84b.html</id>
+    <link href="https://wty2333.github.io/project/ac11e84b.html"/>
+    <id>https://wty2333.github.io/project/ac11e84b.html</id>
     <published>2022-07-06T03:05:09.000Z</published>
     <updated>2022-07-07T03:14:40.433Z</updated>
     
@@ -340,21 +344,21 @@
     
     
     
-    <category term="ECNU" scheme="https://wty2333.gitee.io/categories/ECNU/"/>
+    <category term="ECNU" scheme="https://wty2333.github.io/categories/ECNU/"/>
     
-    <category term="逻辑推理证明" scheme="https://wty2333.gitee.io/categories/ECNU/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
+    <category term="逻辑推理证明" scheme="https://wty2333.github.io/categories/ECNU/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
     
     
-    <category term="ECNU" scheme="https://wty2333.gitee.io/tags/ECNU/"/>
+    <category term="ECNU" scheme="https://wty2333.github.io/tags/ECNU/"/>
     
-    <category term="逻辑推理证明" scheme="https://wty2333.gitee.io/tags/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
+    <category term="逻辑推理证明" scheme="https://wty2333.github.io/tags/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
     
   </entry>
   
   <entry>
     <title>2021秋《逻辑·推理·证明》第5次作业</title>
-    <link href="https://wty2333.gitee.io/project/59ef63fb.html"/>
-    <id>https://wty2333.gitee.io/project/59ef63fb.html</id>
+    <link href="https://wty2333.github.io/project/59ef63fb.html"/>
+    <id>https://wty2333.github.io/project/59ef63fb.html</id>
     <published>2022-07-06T03:05:09.000Z</published>
     <updated>2022-07-07T03:14:57.180Z</updated>
     
@@ -387,21 +391,21 @@
     
     
     
-    <category term="ECNU" scheme="https://wty2333.gitee.io/categories/ECNU/"/>
+    <category term="ECNU" scheme="https://wty2333.github.io/categories/ECNU/"/>
     
-    <category term="逻辑推理证明" scheme="https://wty2333.gitee.io/categories/ECNU/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
+    <category term="逻辑推理证明" scheme="https://wty2333.github.io/categories/ECNU/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
     
     
-    <category term="ECNU" scheme="https://wty2333.gitee.io/tags/ECNU/"/>
+    <category term="ECNU" scheme="https://wty2333.github.io/tags/ECNU/"/>
     
-    <category term="逻辑推理证明" scheme="https://wty2333.gitee.io/tags/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
+    <category term="逻辑推理证明" scheme="https://wty2333.github.io/tags/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
     
   </entry>
   
   <entry>
     <title>2021秋《逻辑·推理·证明》第6、7次作业</title>
-    <link href="https://wty2333.gitee.io/project/b1c31386.html"/>
-    <id>https://wty2333.gitee.io/project/b1c31386.html</id>
+    <link href="https://wty2333.github.io/project/b1c31386.html"/>
+    <id>https://wty2333.github.io/project/b1c31386.html</id>
     <published>2022-07-06T03:05:09.000Z</published>
     <updated>2022-07-07T03:14:51.170Z</updated>
     
@@ -434,21 +438,21 @@
     
     
     
-    <category term="ECNU" scheme="https://wty2333.gitee.io/categories/ECNU/"/>
+    <category term="ECNU" scheme="https://wty2333.github.io/categories/ECNU/"/>
     
-    <category term="逻辑推理证明" scheme="https://wty2333.gitee.io/categories/ECNU/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
+    <category term="逻辑推理证明" scheme="https://wty2333.github.io/categories/ECNU/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
     
     
-    <category term="ECNU" scheme="https://wty2333.gitee.io/tags/ECNU/"/>
+    <category term="ECNU" scheme="https://wty2333.github.io/tags/ECNU/"/>
     
-    <category term="逻辑推理证明" scheme="https://wty2333.gitee.io/tags/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
+    <category term="逻辑推理证明" scheme="https://wty2333.github.io/tags/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
     
   </entry>
   
   <entry>
     <title>2021秋《逻辑·推理·证明》第4次作业</title>
-    <link href="https://wty2333.gitee.io/project/b62d08c5.html"/>
-    <id>https://wty2333.gitee.io/project/b62d08c5.html</id>
+    <link href="https://wty2333.github.io/project/b62d08c5.html"/>
+    <id>https://wty2333.github.io/project/b62d08c5.html</id>
     <published>2022-07-06T03:05:09.000Z</published>
     <updated>2022-07-07T03:14:54.933Z</updated>
     
@@ -481,21 +485,21 @@
     
     
     
-    <category term="ECNU" scheme="https://wty2333.gitee.io/categories/ECNU/"/>
+    <category term="ECNU" scheme="https://wty2333.github.io/categories/ECNU/"/>
     
-    <category term="逻辑推理证明" scheme="https://wty2333.gitee.io/categories/ECNU/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
+    <category term="逻辑推理证明" scheme="https://wty2333.github.io/categories/ECNU/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
     
     
-    <category term="ECNU" scheme="https://wty2333.gitee.io/tags/ECNU/"/>
+    <category term="ECNU" scheme="https://wty2333.github.io/tags/ECNU/"/>
     
-    <category term="逻辑推理证明" scheme="https://wty2333.gitee.io/tags/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
+    <category term="逻辑推理证明" scheme="https://wty2333.github.io/tags/%E9%80%BB%E8%BE%91%E6%8E%A8%E7%90%86%E8%AF%81%E6%98%8E/"/>
     
   </entry>
   
   <entry>
     <title>hexo博客支持图片和latex公式</title>
-    <link href="https://wty2333.gitee.io/project/59f9316d.html"/>
-    <id>https://wty2333.gitee.io/project/59f9316d.html</id>
+    <link href="https://wty2333.github.io/project/59f9316d.html"/>
+    <id>https://wty2333.github.io/project/59f9316d.html</id>
     <published>2022-07-05T07:52:30.000Z</published>
     <updated>2022-07-06T03:24:48.241Z</updated>
     
@@ -506,23 +510,23 @@
     
     
     
-    <category term="教程" scheme="https://wty2333.gitee.io/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="https://wty2333.github.io/categories/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="hexo" scheme="https://wty2333.gitee.io/categories/%E6%95%99%E7%A8%8B/hexo/"/>
+    <category term="hexo" scheme="https://wty2333.github.io/categories/%E6%95%99%E7%A8%8B/hexo/"/>
     
     
-    <category term="hexo" scheme="https://wty2333.gitee.io/tags/hexo/"/>
+    <category term="hexo" scheme="https://wty2333.github.io/tags/hexo/"/>
     
-    <category term="图片" scheme="https://wty2333.gitee.io/tags/%E5%9B%BE%E7%89%87/"/>
+    <category term="图片" scheme="https://wty2333.github.io/tags/%E5%9B%BE%E7%89%87/"/>
     
-    <category term="公式" scheme="https://wty2333.gitee.io/tags/%E5%85%AC%E5%BC%8F/"/>
+    <category term="公式" scheme="https://wty2333.github.io/tags/%E5%85%AC%E5%BC%8F/"/>
     
   </entry>
   
   <entry>
     <title>2021秋《概率论与数理统计》第15次作业</title>
-    <link href="https://wty2333.gitee.io/project/75b87493.html"/>
-    <id>https://wty2333.gitee.io/project/75b87493.html</id>
+    <link href="https://wty2333.github.io/project/75b87493.html"/>
+    <id>https://wty2333.github.io/project/75b87493.html</id>
     <published>2022-07-05T03:08:09.000Z</published>
     <updated>2022-07-06T09:23:02.213Z</updated>
     
@@ -555,21 +559,21 @@
     
     
     
-    <category term="ECNU" scheme="https://wty2333.gitee.io/categories/ECNU/"/>
+    <category term="ECNU" scheme="https://wty2333.github.io/categories/ECNU/"/>
     
-    <category term="概率论与数理统计" scheme="https://wty2333.gitee.io/categories/ECNU/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/"/>
+    <category term="概率论与数理统计" scheme="https://wty2333.github.io/categories/ECNU/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/"/>
     
     
-    <category term="ECNU" scheme="https://wty2333.gitee.io/tags/ECNU/"/>
+    <category term="ECNU" scheme="https://wty2333.github.io/tags/ECNU/"/>
     
-    <category term="概率论" scheme="https://wty2333.gitee.io/tags/%E6%A6%82%E7%8E%87%E8%AE%BA/"/>
+    <category term="概率论" scheme="https://wty2333.github.io/tags/%E6%A6%82%E7%8E%87%E8%AE%BA/"/>
     
   </entry>
   
   <entry>
     <title>2021秋《概率论与数理统计》第14次作业</title>
-    <link href="https://wty2333.gitee.io/project/9a7a1fad.html"/>
-    <id>https://wty2333.gitee.io/project/9a7a1fad.html</id>
+    <link href="https://wty2333.github.io/project/9a7a1fad.html"/>
+    <id>https://wty2333.github.io/project/9a7a1fad.html</id>
     <published>2022-07-05T03:08:09.000Z</published>
     <updated>2022-07-06T09:23:57.807Z</updated>
     
@@ -602,21 +606,21 @@
     
     
     
-    <category term="ECNU" scheme="https://wty2333.gitee.io/categories/ECNU/"/>
+    <category term="ECNU" scheme="https://wty2333.github.io/categories/ECNU/"/>
     
-    <category term="概率论与数理统计" scheme="https://wty2333.gitee.io/categories/ECNU/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/"/>
+    <category term="概率论与数理统计" scheme="https://wty2333.github.io/categories/ECNU/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/"/>
     
     
-    <category term="ECNU" scheme="https://wty2333.gitee.io/tags/ECNU/"/>
+    <category term="ECNU" scheme="https://wty2333.github.io/tags/ECNU/"/>
     
-    <category term="概率论" scheme="https://wty2333.gitee.io/tags/%E6%A6%82%E7%8E%87%E8%AE%BA/"/>
+    <category term="概率论" scheme="https://wty2333.github.io/tags/%E6%A6%82%E7%8E%87%E8%AE%BA/"/>
     
   </entry>
   
   <entry>
     <title>2021秋《概率论与数理统计》第6次作业</title>
-    <link href="https://wty2333.gitee.io/project/20f53274.html"/>
-    <id>https://wty2333.gitee.io/project/20f53274.html</id>
+    <link href="https://wty2333.github.io/project/20f53274.html"/>
+    <id>https://wty2333.github.io/project/20f53274.html</id>
     <published>2022-07-05T03:08:09.000Z</published>
     <updated>2022-07-06T09:23:10.079Z</updated>
     
@@ -649,21 +653,21 @@
     
     
     
-    <category term="ECNU" scheme="https://wty2333.gitee.io/categories/ECNU/"/>
+    <category term="ECNU" scheme="https://wty2333.github.io/categories/ECNU/"/>
     
-    <category term="概率论与数理统计" scheme="https://wty2333.gitee.io/categories/ECNU/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/"/>
+    <category term="概率论与数理统计" scheme="https://wty2333.github.io/categories/ECNU/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/"/>
     
     
-    <category term="ECNU" scheme="https://wty2333.gitee.io/tags/ECNU/"/>
+    <category term="ECNU" scheme="https://wty2333.github.io/tags/ECNU/"/>
     
-    <category term="概率论" scheme="https://wty2333.gitee.io/tags/%E6%A6%82%E7%8E%87%E8%AE%BA/"/>
+    <category term="概率论" scheme="https://wty2333.github.io/tags/%E6%A6%82%E7%8E%87%E8%AE%BA/"/>
     
   </entry>
   
   <entry>
     <title>2021秋《概率论与数理统计》第9次作业</title>
-    <link href="https://wty2333.gitee.io/project/d1fe69f9.html"/>
-    <id>https://wty2333.gitee.io/project/d1fe69f9.html</id>
+    <link href="https://wty2333.github.io/project/d1fe69f9.html"/>
+    <id>https://wty2333.github.io/project/d1fe69f9.html</id>
     <published>2022-07-05T03:08:09.000Z</published>
     <updated>2022-07-06T09:23:50.786Z</updated>
     
@@ -696,21 +700,21 @@
     
     
     
-    <category term="ECNU" scheme="https://wty2333.gitee.io/categories/ECNU/"/>
+    <category term="ECNU" scheme="https://wty2333.github.io/categories/ECNU/"/>
     
-    <category term="概率论与数理统计" scheme="https://wty2333.gitee.io/categories/ECNU/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/"/>
+    <category term="概率论与数理统计" scheme="https://wty2333.github.io/categories/ECNU/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/"/>
     
     
-    <category term="ECNU" scheme="https://wty2333.gitee.io/tags/ECNU/"/>
+    <category term="ECNU" scheme="https://wty2333.github.io/tags/ECNU/"/>
     
-    <category term="概率论" scheme="https://wty2333.gitee.io/tags/%E6%A6%82%E7%8E%87%E8%AE%BA/"/>
+    <category term="概率论" scheme="https://wty2333.github.io/tags/%E6%A6%82%E7%8E%87%E8%AE%BA/"/>
     
   </entry>
   
   <entry>
     <title>2021秋《概率论与数理统计》第11次作业</title>
-    <link href="https://wty2333.gitee.io/project/7c53d4e9.html"/>
-    <id>https://wty2333.gitee.io/project/7c53d4e9.html</id>
+    <link href="https://wty2333.github.io/project/7c53d4e9.html"/>
+    <id>https://wty2333.github.io/project/7c53d4e9.html</id>
     <published>2022-07-05T03:08:09.000Z</published>
     <updated>2022-07-06T09:23:37.079Z</updated>
     
@@ -743,21 +747,21 @@
     
     
     
-    <category term="ECNU" scheme="https://wty2333.gitee.io/categories/ECNU/"/>
+    <category term="ECNU" scheme="https://wty2333.github.io/categories/ECNU/"/>
     
-    <category term="概率论与数理统计" scheme="https://wty2333.gitee.io/categories/ECNU/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/"/>
+    <category term="概率论与数理统计" scheme="https://wty2333.github.io/categories/ECNU/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/"/>
     
     
-    <category term="ECNU" scheme="https://wty2333.gitee.io/tags/ECNU/"/>
+    <category term="ECNU" scheme="https://wty2333.github.io/tags/ECNU/"/>
     
-    <category term="概率论" scheme="https://wty2333.gitee.io/tags/%E6%A6%82%E7%8E%87%E8%AE%BA/"/>
+    <category term="概率论" scheme="https://wty2333.github.io/tags/%E6%A6%82%E7%8E%87%E8%AE%BA/"/>
     
   </entry>
   
   <entry>
     <title>2021秋《概率论与数理统计》第10次作业</title>
-    <link href="https://wty2333.gitee.io/project/9391bfd7.html"/>
-    <id>https://wty2333.gitee.io/project/9391bfd7.html</id>
+    <link href="https://wty2333.github.io/project/9391bfd7.html"/>
+    <id>https://wty2333.github.io/project/9391bfd7.html</id>
     <published>2022-07-05T03:08:09.000Z</published>
     <updated>2022-07-06T09:24:16.054Z</updated>
     
@@ -790,21 +794,21 @@
     
     
     
-    <category term="ECNU" scheme="https://wty2333.gitee.io/categories/ECNU/"/>
+    <category term="ECNU" scheme="https://wty2333.github.io/categories/ECNU/"/>
     
-    <category term="概率论与数理统计" scheme="https://wty2333.gitee.io/categories/ECNU/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/"/>
+    <category term="概率论与数理统计" scheme="https://wty2333.github.io/categories/ECNU/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/"/>
     
     
-    <category term="ECNU" scheme="https://wty2333.gitee.io/tags/ECNU/"/>
+    <category term="ECNU" scheme="https://wty2333.github.io/tags/ECNU/"/>
     
-    <category term="概率论" scheme="https://wty2333.gitee.io/tags/%E6%A6%82%E7%8E%87%E8%AE%BA/"/>
+    <category term="概率论" scheme="https://wty2333.github.io/tags/%E6%A6%82%E7%8E%87%E8%AE%BA/"/>
     
   </entry>
   
   <entry>
     <title>2021秋《概率论与数理统计》第3次作业</title>
-    <link href="https://wty2333.gitee.io/project/c6dcf930.html"/>
-    <id>https://wty2333.gitee.io/project/c6dcf930.html</id>
+    <link href="https://wty2333.github.io/project/c6dcf930.html"/>
+    <id>https://wty2333.github.io/project/c6dcf930.html</id>
     <published>2022-07-05T03:08:09.000Z</published>
     <updated>2022-07-06T09:24:10.018Z</updated>
     
@@ -837,14 +841,14 @@
     
     
     
-    <category term="ECNU" scheme="https://wty2333.gitee.io/categories/ECNU/"/>
+    <category term="ECNU" scheme="https://wty2333.github.io/categories/ECNU/"/>
     
-    <category term="概率论与数理统计" scheme="https://wty2333.gitee.io/categories/ECNU/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/"/>
+    <category term="概率论与数理统计" scheme="https://wty2333.github.io/categories/ECNU/%E6%A6%82%E7%8E%87%E8%AE%BA%E4%B8%8E%E6%95%B0%E7%90%86%E7%BB%9F%E8%AE%A1/"/>
     
     
-    <category term="ECNU" scheme="https://wty2333.gitee.io/tags/ECNU/"/>
+    <category term="ECNU" scheme="https://wty2333.github.io/tags/ECNU/"/>
     
-    <category term="概率论" scheme="https://wty2333.gitee.io/tags/%E6%A6%82%E7%8E%87%E8%AE%BA/"/>
+    <category term="概率论" scheme="https://wty2333.github.io/tags/%E6%A6%82%E7%8E%87%E8%AE%BA/"/>
     
   </entry>
   
