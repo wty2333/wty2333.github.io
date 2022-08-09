@@ -445,20 +445,6 @@
   </url>
   
   <url>
-    <loc>https://wty2333.github.io/tags/%E6%94%BB%E5%A3%B3%E6%9C%BA%E5%8A%A8%E9%98%9F/</loc>
-    <lastmod>2022-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://wty2333.github.io/tags/%E7%A7%91%E5%B9%BB/</loc>
-    <lastmod>2022-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://wty2333.github.io/tags/%E6%B5%AA%E5%AE%A2%E5%89%91%E5%BF%83%E8%BF%BD%E5%BF%86%E7%AF%87/</loc>
     <lastmod>2022-08-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -474,6 +460,20 @@
   
   <url>
     <loc>https://wty2333.github.io/tags/%E7%BB%9D%E5%91%BD%E6%AF%92%E5%B8%88/</loc>
+    <lastmod>2022-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wty2333.github.io/tags/%E6%94%BB%E5%A3%B3%E6%9C%BA%E5%8A%A8%E9%98%9F/</loc>
+    <lastmod>2022-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://wty2333.github.io/tags/%E7%A7%91%E5%B9%BB/</loc>
     <lastmod>2022-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
